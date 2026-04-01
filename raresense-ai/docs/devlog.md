@@ -300,3 +300,5 @@
 <!-- extra: fix: typo in init config at 2026-04-01 10:17:00 -->
 
 <!-- extra: style: add .editorconfig at 2026-04-01 11:34:00 -->
+
+<!-- extra: docs: add project overview to README at 2026-04-01 12:51:00 -->
