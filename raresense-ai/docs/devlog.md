@@ -302,3 +302,5 @@
 <!-- extra: style: add .editorconfig at 2026-04-01 11:34:00 -->
 
 <!-- extra: docs: add project overview to README at 2026-04-01 12:51:00 -->
+
+<!-- extra: chore: add .gitignore entries at 2026-04-02 10:17:00 -->
