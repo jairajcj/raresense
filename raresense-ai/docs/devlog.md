@@ -660,3 +660,5 @@
 <!-- [2026-04-03-1] docs: add system architecture diagram @ 2026-04-03 09:11:00 -->
 
 <!-- [2026-04-03-2] style: update project banner in README @ 2026-04-03 10:22:00 -->
+
+<!-- [2026-04-03-3] chore: add MIT license file @ 2026-04-03 11:33:00 -->
