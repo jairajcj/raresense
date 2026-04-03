@@ -4,3 +4,4 @@
 # 2026-04-02-0 - docs: update inline comments
 # 2026-04-02-1 - style: fix formatting inconsistencies
 # 2026-04-02-2 - perf: optimise render loop
+# 2026-04-03-0 - test: add missing test coverage
