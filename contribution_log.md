@@ -6,3 +6,4 @@
 # 2026-04-02-2 - perf: optimise render loop
 # 2026-04-03-0 - test: add missing test coverage
 # 2026-04-03-1 - feat: minor UI enhancement
+# 2026-04-03-2 - chore: clean up unused imports
