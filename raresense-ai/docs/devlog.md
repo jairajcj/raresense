@@ -662,3 +662,5 @@
 <!-- [2026-04-03-2] style: update project banner in README @ 2026-04-03 10:22:00 -->
 
 <!-- [2026-04-03-3] chore: add MIT license file @ 2026-04-03 11:33:00 -->
+
+<!-- [2026-04-03-4] fix: typo in setup instructions @ 2026-04-03 12:44:00 -->
