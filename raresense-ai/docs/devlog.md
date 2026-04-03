@@ -656,3 +656,5 @@
 <!-- extra: docs: update changelog at 2026-06-26 11:30:00 -->
 
 <!-- extra: chore: tag release candidate v0.1.0 at 2026-06-26 12:45:00 -->
+
+<!-- [2026-04-03-1] docs: add system architecture diagram @ 2026-04-03 09:11:00 -->
