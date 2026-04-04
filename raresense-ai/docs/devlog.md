@@ -7,3 +7,8 @@
 ## 2026-04-02
 - Drafted patient model schema with fields: id, name, dob, symptoms, diagnosis
 
+
+## 2026-04-04
+- Configured MongoDB connection via PyMongo
+- Added .env template for DB URI
+
