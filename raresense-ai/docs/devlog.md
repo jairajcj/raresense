@@ -308,3 +308,5 @@
 <!-- extra: refactor: rename db config vars at 2026-04-02 11:34:00 -->
 
 <!-- extra: test: verify MongoDB connection at 2026-04-02 12:51:00 -->
+
+<!-- extra: fix: env variable loading order at 2026-04-04 10:17:00 -->
