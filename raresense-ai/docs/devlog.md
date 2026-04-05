@@ -670,3 +670,5 @@
 <!-- [2026-04-05-2] fix: refresh token not stored in cookie @ 2026-04-05 10:22:00 -->
 
 <!-- [2026-04-05-3] refactor: cookie options to config @ 2026-04-05 11:33:00 -->
+
+<!-- [2026-04-05-4] chore: weekend cleanup session @ 2026-04-05 12:44:00 -->
