@@ -668,3 +668,5 @@
 <!-- [2026-04-05-1] test: auth token expiry test @ 2026-04-05 09:11:00 -->
 
 <!-- [2026-04-05-2] fix: refresh token not stored in cookie @ 2026-04-05 10:22:00 -->
+
+<!-- [2026-04-05-3] refactor: cookie options to config @ 2026-04-05 11:33:00 -->
