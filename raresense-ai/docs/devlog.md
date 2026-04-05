@@ -664,3 +664,5 @@
 <!-- [2026-04-03-3] chore: add MIT license file @ 2026-04-03 11:33:00 -->
 
 <!-- [2026-04-03-4] fix: typo in setup instructions @ 2026-04-03 12:44:00 -->
+
+<!-- [2026-04-05-1] test: auth token expiry test @ 2026-04-05 09:11:00 -->
