@@ -674,3 +674,5 @@
 <!-- [2026-04-05-4] chore: weekend cleanup session @ 2026-04-05 12:44:00 -->
 
 <!-- [2026-04-06-1] docs: patient data flow diagram @ 2026-04-06 09:11:00 -->
+
+<!-- [2026-04-06-2] style: diagram colours updated @ 2026-04-06 10:22:00 -->
