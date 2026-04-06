@@ -672,3 +672,5 @@
 <!-- [2026-04-05-3] refactor: cookie options to config @ 2026-04-05 11:33:00 -->
 
 <!-- [2026-04-05-4] chore: weekend cleanup session @ 2026-04-05 12:44:00 -->
+
+<!-- [2026-04-06-1] docs: patient data flow diagram @ 2026-04-06 09:11:00 -->
