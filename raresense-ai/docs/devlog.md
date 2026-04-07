@@ -316,3 +316,5 @@
 <!-- extra: style: format config.py with black at 2026-04-04 12:51:00 -->
 
 <!-- extra: fix: JWT secret key validation at 2026-04-07 10:17:00 -->
+
+<!-- extra: refactor: move token utils to helpers at 2026-04-07 11:34:00 -->
