@@ -12,3 +12,8 @@
 - Configured MongoDB connection via PyMongo
 - Added .env template for DB URI
 
+
+## 2026-04-07
+- Implemented JWT-based auth
+- Added login and register endpoints
+
