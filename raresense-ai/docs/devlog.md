@@ -17,3 +17,8 @@
 - Implemented JWT-based auth
 - Added login and register endpoints
 
+
+## 2026-04-08
+- Integrated bcrypt for password hashing
+- Secured register route
+
