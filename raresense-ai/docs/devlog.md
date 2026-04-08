@@ -320,3 +320,5 @@
 <!-- extra: refactor: move token utils to helpers at 2026-04-07 11:34:00 -->
 
 <!-- extra: test: add auth unit test stub at 2026-04-07 12:51:00 -->
+
+<!-- extra: fix: bcrypt import path at 2026-04-08 10:17:00 -->
