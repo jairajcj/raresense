@@ -686,3 +686,5 @@
 <!-- [2026-04-09-2] fix: admin role not persisted @ 2026-04-09 10:22:00 -->
 
 <!-- [2026-04-09-3] refactor: roles to enum class @ 2026-04-09 11:33:00 -->
+
+<!-- [2026-04-09-4] test: RBAC middleware test @ 2026-04-09 12:44:00 -->
