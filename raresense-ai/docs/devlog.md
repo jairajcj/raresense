@@ -684,3 +684,5 @@
 <!-- [2026-04-09-1] feat: add role-based access control @ 2026-04-09 09:11:00 -->
 
 <!-- [2026-04-09-2] fix: admin role not persisted @ 2026-04-09 10:22:00 -->
+
+<!-- [2026-04-09-3] refactor: roles to enum class @ 2026-04-09 11:33:00 -->
