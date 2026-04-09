@@ -682,3 +682,5 @@
 <!-- [2026-04-06-4] fix: broken image in docs @ 2026-04-06 12:44:00 -->
 
 <!-- [2026-04-09-1] feat: add role-based access control @ 2026-04-09 09:11:00 -->
+
+<!-- [2026-04-09-2] fix: admin role not persisted @ 2026-04-09 10:22:00 -->
