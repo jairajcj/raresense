@@ -26,3 +26,4 @@
 # 2026-04-09-1 - fix: improve error messages
 # 2026-04-09-2 - refactor: consolidate duplicated code
 # 2026-04-10-0 - perf: cache repeated computations
+# 2026-04-10-1 - style: align with code style guide
