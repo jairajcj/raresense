@@ -22,3 +22,8 @@
 - Integrated bcrypt for password hashing
 - Secured register route
 
+
+## 2026-04-10
+- Scaffolded CRUD routes for patients
+- GET /patients, POST /patients, GET /patients/:id
+
