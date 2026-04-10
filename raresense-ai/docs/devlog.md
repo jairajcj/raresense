@@ -328,3 +328,5 @@
 <!-- extra: style: clean up auth route comments at 2026-04-08 12:51:00 -->
 
 <!-- extra: fix: patient list returns 500 on empty DB at 2026-04-10 10:17:00 -->
+
+<!-- extra: refactor: extract pagination helper at 2026-04-10 11:34:00 -->
