@@ -330,3 +330,5 @@
 <!-- extra: fix: patient list returns 500 on empty DB at 2026-04-10 10:17:00 -->
 
 <!-- extra: refactor: extract pagination helper at 2026-04-10 11:34:00 -->
+
+<!-- extra: style: format patients.py at 2026-04-10 12:51:00 -->
