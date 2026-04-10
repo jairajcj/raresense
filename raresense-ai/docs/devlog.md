@@ -326,3 +326,5 @@
 <!-- extra: chore: pin bcrypt version in requirements at 2026-04-08 11:34:00 -->
 
 <!-- extra: style: clean up auth route comments at 2026-04-08 12:51:00 -->
+
+<!-- extra: fix: patient list returns 500 on empty DB at 2026-04-10 10:17:00 -->
