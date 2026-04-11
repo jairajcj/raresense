@@ -27,3 +27,8 @@
 - Scaffolded CRUD routes for patients
 - GET /patients, POST /patients, GET /patients/:id
 
+
+## 2026-04-11
+- Added request validation for patient creation
+- Error handling for missing fields
+
