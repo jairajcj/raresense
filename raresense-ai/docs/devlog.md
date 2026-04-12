@@ -692,3 +692,5 @@
 <!-- [2026-04-12-1] docs: update API_DOCS with auth headers @ 2026-04-12 09:11:00 -->
 
 <!-- [2026-04-12-2] chore: clean node_modules cache @ 2026-04-12 10:22:00 -->
+
+<!-- [2026-04-12-3] fix: package resolution conflict @ 2026-04-12 11:33:00 -->
