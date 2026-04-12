@@ -688,3 +688,5 @@
 <!-- [2026-04-09-3] refactor: roles to enum class @ 2026-04-09 11:33:00 -->
 
 <!-- [2026-04-09-4] test: RBAC middleware test @ 2026-04-09 12:44:00 -->
+
+<!-- [2026-04-12-1] docs: update API_DOCS with auth headers @ 2026-04-12 09:11:00 -->
