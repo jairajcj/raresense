@@ -33,3 +33,4 @@
 # 2026-04-11-2 - refactor: improve code readability
 # 2026-04-12-0 - docs: update inline comments
 # 2026-04-12-1 - style: fix formatting inconsistencies
+# 2026-04-12-2 - perf: optimise render loop
