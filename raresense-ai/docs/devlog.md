@@ -1322,3 +1322,5 @@
 <!-- boost: style: fix indentation and spacing @ 2026-04-11 18:06:00 -->
 
 <!-- boost: test: improve assertion messages @ 2026-04-11 19:13:00 -->
+
+<!-- boost: fix: resolve null pointer in patient loader @ 2026-04-12 08:56:00 -->
