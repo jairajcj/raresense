@@ -700,3 +700,5 @@
 <!-- [2026-04-13-1] feat: protected route wrapper component @ 2026-04-13 09:11:00 -->
 
 <!-- [2026-04-13-2] fix: redirect state lost on login @ 2026-04-13 10:22:00 -->
+
+<!-- [2026-04-13-3] refactor: ProtectedRoute props @ 2026-04-13 11:33:00 -->
