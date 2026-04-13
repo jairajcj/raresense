@@ -698,3 +698,5 @@
 <!-- [2026-04-12-4] style: sort imports in main.jsx @ 2026-04-12 12:44:00 -->
 
 <!-- [2026-04-13-1] feat: protected route wrapper component @ 2026-04-13 09:11:00 -->
+
+<!-- [2026-04-13-2] fix: redirect state lost on login @ 2026-04-13 10:22:00 -->
