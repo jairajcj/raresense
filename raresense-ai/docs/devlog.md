@@ -696,3 +696,5 @@
 <!-- [2026-04-12-3] fix: package resolution conflict @ 2026-04-12 11:33:00 -->
 
 <!-- [2026-04-12-4] style: sort imports in main.jsx @ 2026-04-12 12:44:00 -->
+
+<!-- [2026-04-13-1] feat: protected route wrapper component @ 2026-04-13 09:11:00 -->
