@@ -342,3 +342,5 @@
 <!-- extra: fix: disease route import error at 2026-04-14 10:17:00 -->
 
 <!-- extra: chore: add ORPHA codes enum at 2026-04-14 11:34:00 -->
+
+<!-- extra: refactor: disease model field names at 2026-04-14 12:51:00 -->
