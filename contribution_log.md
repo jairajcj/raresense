@@ -39,3 +39,4 @@
 # 2026-04-13-2 - chore: clean up unused imports
 # 2026-04-14-0 - fix: null pointer guard
 # 2026-04-14-1 - refactor: extract helper function
+# 2026-04-14-2 - docs: clarify function purpose
