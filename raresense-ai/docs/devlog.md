@@ -32,3 +32,8 @@
 - Added request validation for patient creation
 - Error handling for missing fields
 
+
+## 2026-04-14
+- Created disease model with ORPHA codes
+- Added diseases listing endpoint
+
