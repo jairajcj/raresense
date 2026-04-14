@@ -340,3 +340,5 @@
 <!-- extra: style: consistent error response format at 2026-04-11 12:51:00 -->
 
 <!-- extra: fix: disease route import error at 2026-04-14 10:17:00 -->
+
+<!-- extra: chore: add ORPHA codes enum at 2026-04-14 11:34:00 -->
