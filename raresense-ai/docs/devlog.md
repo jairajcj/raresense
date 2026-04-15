@@ -346,3 +346,5 @@
 <!-- extra: refactor: disease model field names at 2026-04-14 12:51:00 -->
 
 <!-- extra: fix: search index not created on startup at 2026-04-15 10:17:00 -->
+
+<!-- extra: refactor: search query builder at 2026-04-15 11:34:00 -->
