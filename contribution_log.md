@@ -40,3 +40,4 @@
 # 2026-04-14-0 - fix: null pointer guard
 # 2026-04-14-1 - refactor: extract helper function
 # 2026-04-14-2 - docs: clarify function purpose
+# 2026-04-15-0 - style: apply linting rules
