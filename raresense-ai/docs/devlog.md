@@ -37,3 +37,8 @@
 - Created disease model with ORPHA codes
 - Added diseases listing endpoint
 
+
+## 2026-04-15
+- Implemented search by symptoms
+- Used MongoDB text search index
+
