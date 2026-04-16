@@ -354,3 +354,5 @@
 <!-- extra: chore: vite config tweaks at 2026-04-16 10:17:00 -->
 
 <!-- extra: fix: hot reload path alias at 2026-04-16 11:34:00 -->
+
+<!-- extra: style: prettier config added at 2026-04-16 12:51:00 -->
