@@ -42,3 +42,8 @@
 - Implemented search by symptoms
 - Used MongoDB text search index
 
+
+## 2026-04-16
+- Initialized Vite + React frontend
+- Set up folder structure: pages, components, utils
+
