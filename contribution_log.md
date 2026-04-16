@@ -44,3 +44,4 @@
 # 2026-04-15-1 - fix: handle empty response
 # 2026-04-15-2 - chore: update config values
 # 2026-04-16-0 - refactor: simplify boolean logic
+# 2026-04-16-1 - perf: reduce unnecessary re-renders
