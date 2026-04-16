@@ -352,3 +352,5 @@
 <!-- extra: style: clean search.py formatting at 2026-04-15 12:51:00 -->
 
 <!-- extra: chore: vite config tweaks at 2026-04-16 10:17:00 -->
+
+<!-- extra: fix: hot reload path alias at 2026-04-16 11:34:00 -->
