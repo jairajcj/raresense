@@ -43,3 +43,4 @@
 # 2026-04-15-0 - style: apply linting rules
 # 2026-04-15-1 - fix: handle empty response
 # 2026-04-15-2 - chore: update config values
+# 2026-04-16-0 - refactor: simplify boolean logic
