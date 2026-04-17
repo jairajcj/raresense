@@ -360,3 +360,5 @@
 <!-- extra: style: CSS variable naming convention at 2026-04-17 10:17:00 -->
 
 <!-- extra: fix: font import order at 2026-04-17 11:34:00 -->
+
+<!-- extra: refactor: move base styles to _reset.css at 2026-04-17 12:51:00 -->
