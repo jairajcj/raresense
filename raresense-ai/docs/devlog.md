@@ -358,3 +358,5 @@
 <!-- extra: style: prettier config added at 2026-04-16 12:51:00 -->
 
 <!-- extra: style: CSS variable naming convention at 2026-04-17 10:17:00 -->
+
+<!-- extra: fix: font import order at 2026-04-17 11:34:00 -->
