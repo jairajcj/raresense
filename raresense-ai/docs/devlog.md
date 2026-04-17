@@ -47,3 +47,7 @@
 - Initialized Vite + React frontend
 - Set up folder structure: pages, components, utils
 
+
+## 2026-04-17
+- Defined color palette, typography, and spacing tokens in index.css
+
