@@ -48,3 +48,4 @@
 # 2026-04-16-2 - test: improve assertion coverage
 # 2026-04-17-0 - fix: correct variable scope
 # 2026-04-17-1 - chore: update changelog
+# 2026-04-17-2 - style: consistent spacing
