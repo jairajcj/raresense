@@ -51,3 +51,4 @@
 # 2026-04-17-2 - style: consistent spacing
 # 2026-04-18-0 - refactor: rename for clarity
 # 2026-04-18-1 - fix: edge case in form validation
+# 2026-04-18-2 - docs: add usage examples
