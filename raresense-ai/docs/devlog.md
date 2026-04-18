@@ -364,3 +364,5 @@
 <!-- extra: refactor: move base styles to _reset.css at 2026-04-17 12:51:00 -->
 
 <!-- extra: fix: login form validation state at 2026-04-18 10:17:00 -->
+
+<!-- extra: refactor: LoginForm extracted to component at 2026-04-18 11:34:00 -->
