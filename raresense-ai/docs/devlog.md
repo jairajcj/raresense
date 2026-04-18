@@ -51,3 +51,8 @@
 ## 2026-04-17
 - Defined color palette, typography, and spacing tokens in index.css
 
+
+## 2026-04-18
+- Built Login page with email/password form
+- Added form validation
+
