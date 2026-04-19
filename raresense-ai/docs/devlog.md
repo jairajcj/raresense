@@ -706,3 +706,5 @@
 <!-- [2026-04-13-4] style: 403 page styling @ 2026-04-13 12:44:00 -->
 
 <!-- [2026-04-19-1] chore: review PR feedback @ 2026-04-19 09:11:00 -->
+
+<!-- [2026-04-19-2] fix: edge case in patient age calc @ 2026-04-19 10:22:00 -->
