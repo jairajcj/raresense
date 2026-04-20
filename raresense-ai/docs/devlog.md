@@ -716,3 +716,5 @@
 <!-- [2026-04-20-1] feat: add patient photo upload field @ 2026-04-20 09:11:00 -->
 
 <!-- [2026-04-20-2] fix: file size validation @ 2026-04-20 10:22:00 -->
+
+<!-- [2026-04-20-3] refactor: upload handler to service @ 2026-04-20 11:33:00 -->
