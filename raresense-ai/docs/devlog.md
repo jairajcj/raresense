@@ -712,3 +712,5 @@
 <!-- [2026-04-19-3] refactor: date utils module @ 2026-04-19 11:33:00 -->
 
 <!-- [2026-04-19-4] style: DatePicker component style @ 2026-04-19 12:44:00 -->
+
+<!-- [2026-04-20-1] feat: add patient photo upload field @ 2026-04-20 09:11:00 -->
