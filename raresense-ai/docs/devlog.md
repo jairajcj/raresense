@@ -714,3 +714,5 @@
 <!-- [2026-04-19-4] style: DatePicker component style @ 2026-04-19 12:44:00 -->
 
 <!-- [2026-04-20-1] feat: add patient photo upload field @ 2026-04-20 09:11:00 -->
+
+<!-- [2026-04-20-2] fix: file size validation @ 2026-04-20 10:22:00 -->
