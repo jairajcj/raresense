@@ -718,3 +718,5 @@
 <!-- [2026-04-20-2] fix: file size validation @ 2026-04-20 10:22:00 -->
 
 <!-- [2026-04-20-3] refactor: upload handler to service @ 2026-04-20 11:33:00 -->
+
+<!-- [2026-04-20-4] style: upload button design @ 2026-04-20 12:44:00 -->
