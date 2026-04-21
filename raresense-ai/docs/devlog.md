@@ -1540,3 +1540,5 @@
 <!-- boost: test: improve assertion messages @ 2026-04-20 19:13:00 -->
 
 <!-- boost: fix: resolve null pointer in patient loader @ 2026-04-21 08:56:00 -->
+
+<!-- boost: refactor: extract helper function @ 2026-04-21 09:03:00 -->
