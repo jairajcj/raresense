@@ -372,3 +372,5 @@
 <!-- extra: fix: sidebar active link highlight at 2026-04-21 10:17:00 -->
 
 <!-- extra: refactor: nav items to config array at 2026-04-21 11:34:00 -->
+
+<!-- extra: style: sidebar hover animation at 2026-04-21 12:51:00 -->
