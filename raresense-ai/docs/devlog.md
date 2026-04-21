@@ -370,3 +370,5 @@
 <!-- extra: style: Login page spacing fixes at 2026-04-18 12:51:00 -->
 
 <!-- extra: fix: sidebar active link highlight at 2026-04-21 10:17:00 -->
+
+<!-- extra: refactor: nav items to config array at 2026-04-21 11:34:00 -->
