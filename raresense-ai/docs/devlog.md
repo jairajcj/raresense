@@ -61,3 +61,8 @@
 - Created Dashboard page layout
 - Added sidebar navigation component
 
+
+## 2026-04-22
+- Built Patients page with sortable table
+- Integrated API call for patient listing
+
