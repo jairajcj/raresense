@@ -374,3 +374,5 @@
 <!-- extra: refactor: nav items to config array at 2026-04-21 11:34:00 -->
 
 <!-- extra: style: sidebar hover animation at 2026-04-21 12:51:00 -->
+
+<!-- extra: fix: patient table column widths at 2026-04-22 10:17:00 -->
