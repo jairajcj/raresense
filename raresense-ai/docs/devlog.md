@@ -382,3 +382,5 @@
 <!-- extra: style: zebra striping on table rows at 2026-04-22 12:51:00 -->
 
 <!-- extra: fix: matching algo divide-by-zero edge case at 2026-04-23 10:17:00 -->
+
+<!-- extra: refactor: scoring function signature at 2026-04-23 11:34:00 -->
