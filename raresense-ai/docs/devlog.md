@@ -384,3 +384,5 @@
 <!-- extra: fix: matching algo divide-by-zero edge case at 2026-04-23 10:17:00 -->
 
 <!-- extra: refactor: scoring function signature at 2026-04-23 11:34:00 -->
+
+<!-- extra: test: matching unit test cases at 2026-04-23 12:51:00 -->
