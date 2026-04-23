@@ -66,3 +66,7 @@
 - Built Patients page with sortable table
 - Integrated API call for patient listing
 
+
+## 2026-04-23
+- Started matching algorithm for symptom-to-disease correlation
+
