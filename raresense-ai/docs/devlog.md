@@ -70,3 +70,8 @@
 ## 2026-04-23
 - Started matching algorithm for symptom-to-disease correlation
 
+
+## 2026-04-24
+- Added analytics endpoint returning patient stats
+- Aggregation pipeline for disease frequency
+
