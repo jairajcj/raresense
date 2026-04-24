@@ -386,3 +386,5 @@
 <!-- extra: refactor: scoring function signature at 2026-04-23 11:34:00 -->
 
 <!-- extra: test: matching unit test cases at 2026-04-23 12:51:00 -->
+
+<!-- extra: fix: analytics aggregation pipeline null check at 2026-04-24 10:17:00 -->
