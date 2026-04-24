@@ -67,3 +67,4 @@
 # 2026-04-23-0 - test: add missing test coverage
 # 2026-04-23-1 - feat: minor UI enhancement
 # 2026-04-23-2 - chore: clean up unused imports
+# 2026-04-24-0 - fix: null pointer guard
