@@ -75,3 +75,8 @@
 - Added analytics endpoint returning patient stats
 - Aggregation pipeline for disease frequency
 
+
+## 2026-04-25
+- Built Search page with symptom filter UI
+- Connected to backend search endpoint
+
