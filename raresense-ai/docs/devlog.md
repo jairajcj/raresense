@@ -396,3 +396,5 @@
 <!-- extra: fix: search filter UI state reset at 2026-04-25 10:17:00 -->
 
 <!-- extra: refactor: filter state to useReducer at 2026-04-25 11:34:00 -->
+
+<!-- extra: style: filter panel spacing at 2026-04-25 12:51:00 -->
