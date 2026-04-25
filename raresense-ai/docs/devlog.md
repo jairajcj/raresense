@@ -392,3 +392,5 @@
 <!-- extra: refactor: pipeline stages to constants at 2026-04-24 11:34:00 -->
 
 <!-- extra: style: analytics.py formatting at 2026-04-24 12:51:00 -->
+
+<!-- extra: fix: search filter UI state reset at 2026-04-25 10:17:00 -->
