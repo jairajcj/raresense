@@ -724,3 +724,5 @@
 <!-- [2026-04-26-1] chore: weekly sync notes added @ 2026-04-26 09:11:00 -->
 
 <!-- [2026-04-26-2] fix: API base URL env variable @ 2026-04-26 10:22:00 -->
+
+<!-- [2026-04-26-3] refactor: env config loader @ 2026-04-26 11:33:00 -->
