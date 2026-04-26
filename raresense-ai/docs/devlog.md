@@ -722,3 +722,5 @@
 <!-- [2026-04-20-4] style: upload button design @ 2026-04-20 12:44:00 -->
 
 <!-- [2026-04-26-1] chore: weekly sync notes added @ 2026-04-26 09:11:00 -->
+
+<!-- [2026-04-26-2] fix: API base URL env variable @ 2026-04-26 10:22:00 -->
