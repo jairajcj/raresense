@@ -726,3 +726,5 @@
 <!-- [2026-04-26-2] fix: API base URL env variable @ 2026-04-26 10:22:00 -->
 
 <!-- [2026-04-26-3] refactor: env config loader @ 2026-04-26 11:33:00 -->
+
+<!-- [2026-04-26-4] docs: add env variable reference @ 2026-04-26 12:44:00 -->
