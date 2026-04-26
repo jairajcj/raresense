@@ -75,3 +75,4 @@
 # 2026-04-25-2 - chore: update config values
 # 2026-04-26-0 - refactor: simplify boolean logic
 # 2026-04-26-1 - perf: reduce unnecessary re-renders
+# 2026-04-26-2 - test: improve assertion coverage
