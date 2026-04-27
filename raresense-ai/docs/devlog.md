@@ -728,3 +728,5 @@
 <!-- [2026-04-26-3] refactor: env config loader @ 2026-04-26 11:33:00 -->
 
 <!-- [2026-04-26-4] docs: add env variable reference @ 2026-04-26 12:44:00 -->
+
+<!-- [2026-04-27-1] test: patient create endpoint test @ 2026-04-27 09:11:00 -->
