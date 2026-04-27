@@ -732,3 +732,5 @@
 <!-- [2026-04-27-1] test: patient create endpoint test @ 2026-04-27 09:11:00 -->
 
 <!-- [2026-04-27-2] fix: 422 on missing optional field @ 2026-04-27 10:22:00 -->
+
+<!-- [2026-04-27-3] refactor: optional field defaults @ 2026-04-27 11:33:00 -->
