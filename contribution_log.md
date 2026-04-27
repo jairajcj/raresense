@@ -77,3 +77,4 @@
 # 2026-04-26-1 - perf: reduce unnecessary re-renders
 # 2026-04-26-2 - test: improve assertion coverage
 # 2026-04-27-0 - fix: correct variable scope
+# 2026-04-27-1 - chore: update changelog
