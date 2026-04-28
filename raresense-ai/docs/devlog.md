@@ -80,3 +80,8 @@
 - Built Search page with symptom filter UI
 - Connected to backend search endpoint
 
+
+## 2026-04-28
+- Built Diseases listing page with card grid
+- Added disease detail modal
+
