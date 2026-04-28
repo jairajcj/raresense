@@ -402,3 +402,5 @@
 <!-- extra: fix: disease card missing alt text at 2026-04-28 10:17:00 -->
 
 <!-- extra: refactor: DiseaseCard props interface at 2026-04-28 11:34:00 -->
+
+<!-- extra: style: card hover elevation effect at 2026-04-28 12:51:00 -->
