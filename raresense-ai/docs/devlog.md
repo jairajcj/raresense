@@ -406,3 +406,5 @@
 <!-- extra: style: card hover elevation effect at 2026-04-28 12:51:00 -->
 
 <!-- extra: fix: redirect loop on token refresh at 2026-04-29 10:17:00 -->
+
+<!-- extra: refactor: axios interceptor cleanup at 2026-04-29 11:34:00 -->
