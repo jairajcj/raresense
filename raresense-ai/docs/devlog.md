@@ -85,3 +85,8 @@
 - Built Diseases listing page with card grid
 - Added disease detail modal
 
+
+## 2026-04-29
+- Fixed token expiry issue in auth interceptor
+- Redirect to login on 401 responses
+
