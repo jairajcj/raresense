@@ -404,3 +404,5 @@
 <!-- extra: refactor: DiseaseCard props interface at 2026-04-28 11:34:00 -->
 
 <!-- extra: style: card hover elevation effect at 2026-04-28 12:51:00 -->
+
+<!-- extra: fix: redirect loop on token refresh at 2026-04-29 10:17:00 -->
