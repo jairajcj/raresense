@@ -412,3 +412,5 @@
 <!-- extra: style: loading spinner alignment at 2026-04-29 12:51:00 -->
 
 <!-- extra: fix: auth util export names at 2026-04-30 10:17:00 -->
+
+<!-- extra: refactor: consolidate token storage at 2026-04-30 11:34:00 -->
