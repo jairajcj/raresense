@@ -90,3 +90,8 @@
 - Fixed token expiry issue in auth interceptor
 - Redirect to login on 401 responses
 
+
+## 2026-04-30
+- Moved auth helpers to utils/auth.js
+- Cleaned up App.jsx imports
+
