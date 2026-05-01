@@ -740,3 +740,5 @@
 <!-- [2026-05-01-1] chore: May planning session @ 2026-05-01 09:11:00 -->
 
 <!-- [2026-05-01-2] docs: add sprint goals to README @ 2026-05-01 10:22:00 -->
+
+<!-- [2026-05-01-3] fix: stale branch cleanup @ 2026-05-01 11:33:00 -->
