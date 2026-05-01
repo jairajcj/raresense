@@ -738,3 +738,5 @@
 <!-- [2026-04-27-4] style: form placeholder text @ 2026-04-27 12:44:00 -->
 
 <!-- [2026-05-01-1] chore: May planning session @ 2026-05-01 09:11:00 -->
+
+<!-- [2026-05-01-2] docs: add sprint goals to README @ 2026-05-01 10:22:00 -->
