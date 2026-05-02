@@ -95,3 +95,8 @@
 - Moved auth helpers to utils/auth.js
 - Cleaned up App.jsx imports
 
+
+## 2026-05-02
+- Created seed scripts for rare disease data
+- Populated ORPHA disease list from CSV
+
