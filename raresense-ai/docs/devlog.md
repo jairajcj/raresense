@@ -420,3 +420,5 @@
 <!-- extra: fix: seed script duplicate key error at 2026-05-02 11:13:00 -->
 
 <!-- extra: refactor: seed runner as CLI at 2026-05-02 12:26:00 -->
+
+<!-- extra: style: seed_data.py formatting at 2026-05-02 13:39:00 -->
