@@ -1816,3 +1816,5 @@
 <!-- boost: chore: clean up unused imports @ 2026-05-02 13:31:00 -->
 
 <!-- boost: fix: handle edge case in parser @ 2026-05-02 14:38:00 -->
+
+<!-- boost: perf: optimise database query @ 2026-05-02 15:45:00 -->
