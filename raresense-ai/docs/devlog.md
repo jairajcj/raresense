@@ -416,3 +416,5 @@
 <!-- extra: refactor: consolidate token storage at 2026-04-30 11:34:00 -->
 
 <!-- extra: style: eslint warnings resolved at 2026-04-30 12:51:00 -->
+
+<!-- extra: fix: seed script duplicate key error at 2026-05-02 11:13:00 -->
