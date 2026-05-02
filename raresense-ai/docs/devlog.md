@@ -418,3 +418,5 @@
 <!-- extra: style: eslint warnings resolved at 2026-04-30 12:51:00 -->
 
 <!-- extra: fix: seed script duplicate key error at 2026-05-02 11:13:00 -->
+
+<!-- extra: refactor: seed runner as CLI at 2026-05-02 12:26:00 -->
