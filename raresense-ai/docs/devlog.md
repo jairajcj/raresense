@@ -750,3 +750,5 @@
 <!-- [2026-05-03-2] fix: notes section crash on null @ 2026-05-03 10:22:00 -->
 
 <!-- [2026-05-03-3] refactor: null guard in NotesList @ 2026-05-03 11:33:00 -->
+
+<!-- [2026-05-03-4] style: empty state illustration @ 2026-05-03 12:44:00 -->
