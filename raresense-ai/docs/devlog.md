@@ -754,3 +754,5 @@
 <!-- [2026-05-03-4] style: empty state illustration @ 2026-05-03 12:44:00 -->
 
 <!-- [2026-05-04-1] feat: add symptom autocomplete @ 2026-05-04 09:11:00 -->
+
+<!-- [2026-05-04-2] fix: autocomplete z-index overlap @ 2026-05-04 10:22:00 -->
