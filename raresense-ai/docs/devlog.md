@@ -758,3 +758,5 @@
 <!-- [2026-05-04-2] fix: autocomplete z-index overlap @ 2026-05-04 10:22:00 -->
 
 <!-- [2026-05-04-3] refactor: useAutocomplete hook @ 2026-05-04 11:33:00 -->
+
+<!-- [2026-05-04-4] style: dropdown shadow @ 2026-05-04 12:44:00 -->
