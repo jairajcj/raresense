@@ -100,3 +100,8 @@
 - Created seed scripts for rare disease data
 - Populated ORPHA disease list from CSV
 
+
+## 2026-05-05
+- Started PatientDetail page
+- Added patient info header and tabs
+
