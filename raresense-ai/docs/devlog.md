@@ -424,3 +424,5 @@
 <!-- extra: style: seed_data.py formatting at 2026-05-02 13:39:00 -->
 
 <!-- extra: fix: PatientDetail 404 on bad ID at 2026-05-05 11:13:00 -->
+
+<!-- extra: refactor: patient header component at 2026-05-05 12:26:00 -->
