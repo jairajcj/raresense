@@ -101,3 +101,4 @@
 # 2026-05-04-1 - refactor: extract helper function
 # 2026-05-04-2 - docs: clarify function purpose
 # 2026-05-05-0 - style: apply linting rules
+# 2026-05-05-1 - fix: handle empty response
