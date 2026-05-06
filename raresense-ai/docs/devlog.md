@@ -105,3 +105,8 @@
 - Started PatientDetail page
 - Added patient info header and tabs
 
+
+## 2026-05-06
+- Added clinical notes tab in PatientDetail
+- Render notes with timestamps
+
