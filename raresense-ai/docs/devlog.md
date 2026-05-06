@@ -430,3 +430,5 @@
 <!-- extra: style: detail page layout spacing at 2026-05-05 13:39:00 -->
 
 <!-- extra: fix: notes sort order bug at 2026-05-06 11:13:00 -->
+
+<!-- extra: refactor: NoteItem component at 2026-05-06 12:26:00 -->
