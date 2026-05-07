@@ -110,3 +110,8 @@
 - Added clinical notes tab in PatientDetail
 - Render notes with timestamps
 
+
+## 2026-05-07
+- Implemented PUT /patients/:id and DELETE /patients/:id
+- Added authorization check
+
