@@ -436,3 +436,5 @@
 <!-- extra: style: notes timestamp formatting at 2026-05-06 13:39:00 -->
 
 <!-- extra: fix: PUT endpoint missing auth check at 2026-05-07 11:13:00 -->
+
+<!-- extra: refactor: route auth decorator at 2026-05-07 12:26:00 -->
