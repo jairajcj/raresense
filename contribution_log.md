@@ -108,3 +108,4 @@
 # 2026-05-06-2 - test: improve assertion coverage
 # 2026-05-07-0 - fix: correct variable scope
 # 2026-05-07-1 - chore: update changelog
+# 2026-05-07-2 - style: consistent spacing
