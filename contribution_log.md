@@ -110,3 +110,4 @@
 # 2026-05-07-1 - chore: update changelog
 # 2026-05-07-2 - style: consistent spacing
 # 2026-05-08-0 - refactor: rename for clarity
+# 2026-05-08-1 - fix: edge case in form validation
