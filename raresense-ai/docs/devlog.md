@@ -444,3 +444,5 @@
 <!-- extra: fix: prompt template escaping at 2026-05-08 11:13:00 -->
 
 <!-- extra: refactor: prompt builder function at 2026-05-08 12:26:00 -->
+
+<!-- extra: style: AI prompt documentation at 2026-05-08 13:39:00 -->
