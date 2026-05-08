@@ -115,3 +115,8 @@
 - Implemented PUT /patients/:id and DELETE /patients/:id
 - Added authorization check
 
+
+## 2026-05-08
+- Designed system prompt for AI clinical assistant
+- Defined input/output schema for LLM calls
+
