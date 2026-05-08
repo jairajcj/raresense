@@ -442,3 +442,5 @@
 <!-- extra: test: update/delete endpoint tests at 2026-05-07 13:39:00 -->
 
 <!-- extra: fix: prompt template escaping at 2026-05-08 11:13:00 -->
+
+<!-- extra: refactor: prompt builder function at 2026-05-08 12:26:00 -->
