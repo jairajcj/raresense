@@ -446,3 +446,5 @@
 <!-- extra: refactor: prompt builder function at 2026-05-08 12:26:00 -->
 
 <!-- extra: style: AI prompt documentation at 2026-05-08 13:39:00 -->
+
+<!-- extra: fix: Gemini API key validation at 2026-05-09 11:13:00 -->
