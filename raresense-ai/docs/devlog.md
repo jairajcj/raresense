@@ -450,3 +450,5 @@
 <!-- extra: fix: Gemini API key validation at 2026-05-09 11:13:00 -->
 
 <!-- extra: refactor: AI service error handling at 2026-05-09 12:26:00 -->
+
+<!-- extra: style: ai_service.py formatting at 2026-05-09 13:39:00 -->
