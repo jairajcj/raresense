@@ -120,3 +120,8 @@
 - Designed system prompt for AI clinical assistant
 - Defined input/output schema for LLM calls
 
+
+## 2026-05-09
+- Integrated Gemini API for AI assistant feature
+- Added /ai/query backend route
+
