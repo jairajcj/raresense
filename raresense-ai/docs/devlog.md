@@ -1994,3 +1994,5 @@
 <!-- boost: style: fix indentation and spacing @ 2026-05-09 18:06:00 -->
 
 <!-- boost: test: improve assertion messages @ 2026-05-09 19:13:00 -->
+
+<!-- boost: fix: resolve null pointer in patient loader @ 2026-05-10 08:56:00 -->
