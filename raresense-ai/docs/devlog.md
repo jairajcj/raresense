@@ -760,3 +760,5 @@
 <!-- [2026-05-04-3] refactor: useAutocomplete hook @ 2026-05-04 11:33:00 -->
 
 <!-- [2026-05-04-4] style: dropdown shadow @ 2026-05-04 12:44:00 -->
+
+<!-- [2026-05-10-1] chore: dependency audit @ 2026-05-10 09:11:00 -->
