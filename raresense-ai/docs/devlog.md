@@ -766,3 +766,5 @@
 <!-- [2026-05-10-2] fix: lodash prototype pollution @ 2026-05-10 10:22:00 -->
 
 <!-- [2026-05-10-3] chore: replace lodash with native @ 2026-05-10 11:33:00 -->
+
+<!-- [2026-05-10-4] style: update changelogs @ 2026-05-10 12:44:00 -->
