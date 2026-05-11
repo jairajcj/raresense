@@ -772,3 +772,5 @@
 <!-- [2026-05-11-1] feat: bulk patient import via CSV @ 2026-05-11 09:11:00 -->
 
 <!-- [2026-05-11-2] fix: CSV parser encoding issue @ 2026-05-11 10:22:00 -->
+
+<!-- [2026-05-11-3] refactor: csvParser utility @ 2026-05-11 11:33:00 -->
