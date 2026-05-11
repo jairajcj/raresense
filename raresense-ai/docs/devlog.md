@@ -768,3 +768,5 @@
 <!-- [2026-05-10-3] chore: replace lodash with native @ 2026-05-10 11:33:00 -->
 
 <!-- [2026-05-10-4] style: update changelogs @ 2026-05-10 12:44:00 -->
+
+<!-- [2026-05-11-1] feat: bulk patient import via CSV @ 2026-05-11 09:11:00 -->
