@@ -770,3 +770,5 @@
 <!-- [2026-05-10-4] style: update changelogs @ 2026-05-10 12:44:00 -->
 
 <!-- [2026-05-11-1] feat: bulk patient import via CSV @ 2026-05-11 09:11:00 -->
+
+<!-- [2026-05-11-2] fix: CSV parser encoding issue @ 2026-05-11 10:22:00 -->
