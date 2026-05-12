@@ -125,3 +125,8 @@
 - Integrated Gemini API for AI assistant feature
 - Added /ai/query backend route
 
+
+## 2026-05-12
+- Built AIAssistant chat UI
+- Added message history and streaming response display
+
