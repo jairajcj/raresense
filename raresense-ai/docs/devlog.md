@@ -452,3 +452,5 @@
 <!-- extra: refactor: AI service error handling at 2026-05-09 12:26:00 -->
 
 <!-- extra: style: ai_service.py formatting at 2026-05-09 13:39:00 -->
+
+<!-- extra: fix: chat scroll to bottom on new msg at 2026-05-12 11:13:00 -->
