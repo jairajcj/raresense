@@ -456,3 +456,5 @@
 <!-- extra: fix: chat scroll to bottom on new msg at 2026-05-12 11:13:00 -->
 
 <!-- extra: refactor: MessageBubble component at 2026-05-12 12:26:00 -->
+
+<!-- extra: style: chat bubble border radius at 2026-05-12 13:39:00 -->
