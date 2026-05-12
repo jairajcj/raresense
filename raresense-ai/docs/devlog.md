@@ -454,3 +454,5 @@
 <!-- extra: style: ai_service.py formatting at 2026-05-09 13:39:00 -->
 
 <!-- extra: fix: chat scroll to bottom on new msg at 2026-05-12 11:13:00 -->
+
+<!-- extra: refactor: MessageBubble component at 2026-05-12 12:26:00 -->
