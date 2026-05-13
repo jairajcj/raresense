@@ -130,3 +130,8 @@
 - Built AIAssistant chat UI
 - Added message history and streaming response display
 
+
+## 2026-05-13
+- Implemented weighted symptom scoring for disease matching
+- Normalized scores to 0-100%
+
