@@ -458,3 +458,5 @@
 <!-- extra: refactor: MessageBubble component at 2026-05-12 12:26:00 -->
 
 <!-- extra: style: chat bubble border radius at 2026-05-12 13:39:00 -->
+
+<!-- extra: fix: score normalisation edge case at 2026-05-13 11:13:00 -->
