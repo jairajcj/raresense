@@ -462,3 +462,5 @@
 <!-- extra: fix: score normalisation edge case at 2026-05-13 11:13:00 -->
 
 <!-- extra: refactor: score weighting config at 2026-05-13 12:26:00 -->
+
+<!-- extra: test: scoring unit tests at 2026-05-13 13:39:00 -->
