@@ -125,3 +125,4 @@
 # 2026-05-12-1 - style: fix formatting inconsistencies
 # 2026-05-12-2 - perf: optimise render loop
 # 2026-05-13-0 - test: add missing test coverage
+# 2026-05-13-1 - feat: minor UI enhancement
