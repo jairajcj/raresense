@@ -135,3 +135,8 @@
 - Implemented weighted symptom scoring for disease matching
 - Normalized scores to 0-100%
 
+
+## 2026-05-14
+- Added Matching tab to PatientDetail page
+- Rendered top matching diseases with confidence scores
+
