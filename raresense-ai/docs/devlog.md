@@ -468,3 +468,5 @@
 <!-- extra: fix: matching tab empty state UI at 2026-05-14 11:13:00 -->
 
 <!-- extra: refactor: MatchCard component at 2026-05-14 12:26:00 -->
+
+<!-- extra: style: confidence bar animation at 2026-05-14 13:39:00 -->
