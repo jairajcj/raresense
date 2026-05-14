@@ -466,3 +466,5 @@
 <!-- extra: test: scoring unit tests at 2026-05-13 13:39:00 -->
 
 <!-- extra: fix: matching tab empty state UI at 2026-05-14 11:13:00 -->
+
+<!-- extra: refactor: MatchCard component at 2026-05-14 12:26:00 -->
