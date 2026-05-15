@@ -140,3 +140,8 @@
 - Added Matching tab to PatientDetail page
 - Rendered top matching diseases with confidence scores
 
+
+## 2026-05-15
+- Added glassmorphism card variants
+- Implemented hover lift animations
+
