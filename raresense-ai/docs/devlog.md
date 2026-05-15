@@ -472,3 +472,5 @@
 <!-- extra: style: confidence bar animation at 2026-05-14 13:39:00 -->
 
 <!-- extra: fix: glass card blur on Firefox at 2026-05-15 11:13:00 -->
+
+<!-- extra: refactor: card variant props at 2026-05-15 12:26:00 -->
