@@ -480,3 +480,5 @@
 <!-- extra: fix: page count off-by-one at 2026-05-16 11:13:00 -->
 
 <!-- extra: refactor: usePagination hook at 2026-05-16 12:26:00 -->
+
+<!-- extra: style: pagination button styles at 2026-05-16 13:39:00 -->
