@@ -476,3 +476,5 @@
 <!-- extra: refactor: card variant props at 2026-05-15 12:26:00 -->
 
 <!-- extra: style: animation timing functions at 2026-05-15 13:39:00 -->
+
+<!-- extra: fix: page count off-by-one at 2026-05-16 11:13:00 -->
