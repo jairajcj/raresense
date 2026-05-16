@@ -145,3 +145,8 @@
 - Added glassmorphism card variants
 - Implemented hover lift animations
 
+
+## 2026-05-16
+- Fixed pagination bug in search results
+- Added total count header from API
+
