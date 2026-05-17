@@ -780,3 +780,5 @@
 <!-- [2026-05-17-1] chore: weekend refactor session @ 2026-05-17 09:11:00 -->
 
 <!-- [2026-05-17-2] fix: memory leak in socket listener @ 2026-05-17 10:22:00 -->
+
+<!-- [2026-05-17-3] refactor: cleanup useEffect hooks @ 2026-05-17 11:33:00 -->
