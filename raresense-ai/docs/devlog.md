@@ -778,3 +778,5 @@
 <!-- [2026-05-11-4] test: bulk import test case @ 2026-05-11 12:44:00 -->
 
 <!-- [2026-05-17-1] chore: weekend refactor session @ 2026-05-17 09:11:00 -->
+
+<!-- [2026-05-17-2] fix: memory leak in socket listener @ 2026-05-17 10:22:00 -->
