@@ -788,3 +788,5 @@
 <!-- [2026-05-18-1] feat: add notification badge count @ 2026-05-18 09:11:00 -->
 
 <!-- [2026-05-18-2] fix: badge count not reset on read @ 2026-05-18 10:22:00 -->
+
+<!-- [2026-05-18-3] refactor: useNotification hook @ 2026-05-18 11:33:00 -->
