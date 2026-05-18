@@ -790,3 +790,5 @@
 <!-- [2026-05-18-2] fix: badge count not reset on read @ 2026-05-18 10:22:00 -->
 
 <!-- [2026-05-18-3] refactor: useNotification hook @ 2026-05-18 11:33:00 -->
+
+<!-- [2026-05-18-4] style: badge pulse animation @ 2026-05-18 12:44:00 -->
