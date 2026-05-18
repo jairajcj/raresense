@@ -784,3 +784,5 @@
 <!-- [2026-05-17-3] refactor: cleanup useEffect hooks @ 2026-05-17 11:33:00 -->
 
 <!-- [2026-05-17-4] style: eslint autofix applied @ 2026-05-17 12:44:00 -->
+
+<!-- [2026-05-18-1] feat: add notification badge count @ 2026-05-18 09:11:00 -->
