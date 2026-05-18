@@ -139,3 +139,4 @@
 # 2026-05-17-0 - fix: correct variable scope
 # 2026-05-17-1 - chore: update changelog
 # 2026-05-17-2 - style: consistent spacing
+# 2026-05-18-0 - refactor: rename for clarity
