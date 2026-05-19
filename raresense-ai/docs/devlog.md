@@ -150,3 +150,8 @@
 - Fixed pagination bug in search results
 - Added total count header from API
 
+
+## 2026-05-19
+- Configured Flask-CORS for frontend dev server
+- Restricted to allowed origins
+
