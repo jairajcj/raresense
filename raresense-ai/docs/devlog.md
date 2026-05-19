@@ -484,3 +484,5 @@
 <!-- extra: style: pagination button styles at 2026-05-16 13:39:00 -->
 
 <!-- extra: fix: CORS preflight OPTIONS missing at 2026-05-19 11:13:00 -->
+
+<!-- extra: refactor: CORS config to separate module at 2026-05-19 12:26:00 -->
