@@ -144,3 +144,4 @@
 # 2026-05-18-2 - docs: add usage examples
 # 2026-05-19-0 - chore: remove debug statements
 # 2026-05-19-1 - fix: improve error messages
+# 2026-05-19-2 - refactor: consolidate duplicated code
