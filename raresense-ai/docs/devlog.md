@@ -492,3 +492,5 @@
 <!-- extra: fix: sidebar collapse animation stutter at 2026-05-20 11:13:00 -->
 
 <!-- extra: refactor: useBreakpoint hook at 2026-05-20 12:26:00 -->
+
+<!-- extra: style: mobile nav overlay at 2026-05-20 13:39:00 -->
