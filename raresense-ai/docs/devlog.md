@@ -155,3 +155,8 @@
 - Configured Flask-CORS for frontend dev server
 - Restricted to allowed origins
 
+
+## 2026-05-20
+- Made sidebar collapsible on mobile
+- Responsive grid breakpoints for patient cards
+
