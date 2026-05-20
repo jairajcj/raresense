@@ -490,3 +490,5 @@
 <!-- extra: style: app.py cleanup at 2026-05-19 13:39:00 -->
 
 <!-- extra: fix: sidebar collapse animation stutter at 2026-05-20 11:13:00 -->
+
+<!-- extra: refactor: useBreakpoint hook at 2026-05-20 12:26:00 -->
