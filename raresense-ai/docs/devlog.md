@@ -498,3 +498,5 @@
 <!-- extra: chore: update all npm packages at 2026-05-21 11:13:00 -->
 
 <!-- extra: chore: update Python dependencies at 2026-05-21 12:26:00 -->
+
+<!-- extra: fix: lockfile conflicts resolved at 2026-05-21 13:39:00 -->
