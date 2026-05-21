@@ -160,3 +160,8 @@
 - Made sidebar collapsible on mobile
 - Responsive grid breakpoints for patient cards
 
+
+## 2026-05-21
+- Updated requirements.txt with pinned versions
+- Ran npm install and committed lockfile
+
