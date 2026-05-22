@@ -165,3 +165,8 @@
 - Updated requirements.txt with pinned versions
 - Ran npm install and committed lockfile
 
+
+## 2026-05-22
+- Refined dark mode color palette
+- Added subtle gradients to sidebar and cards
+
