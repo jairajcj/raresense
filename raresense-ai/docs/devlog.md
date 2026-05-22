@@ -504,3 +504,5 @@
 <!-- extra: fix: gradient banding on dark bg at 2026-05-22 11:13:00 -->
 
 <!-- extra: refactor: CSS custom property scopes at 2026-05-22 12:26:00 -->
+
+<!-- extra: style: consistent border radius tokens at 2026-05-22 13:39:00 -->
