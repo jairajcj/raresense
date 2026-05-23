@@ -506,3 +506,5 @@
 <!-- extra: refactor: CSS custom property scopes at 2026-05-22 12:26:00 -->
 
 <!-- extra: style: consistent border radius tokens at 2026-05-22 13:39:00 -->
+
+<!-- extra: docs: add authentication flow diagram at 2026-05-23 11:13:00 -->
