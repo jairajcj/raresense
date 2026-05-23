@@ -510,3 +510,5 @@
 <!-- extra: docs: add authentication flow diagram at 2026-05-23 11:13:00 -->
 
 <!-- extra: docs: response schema examples at 2026-05-23 12:26:00 -->
+
+<!-- extra: style: API_DOCS.md formatting at 2026-05-23 13:39:00 -->
