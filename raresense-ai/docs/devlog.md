@@ -170,3 +170,8 @@
 - Refined dark mode color palette
 - Added subtle gradients to sidebar and cards
 
+
+## 2026-05-23
+- Added API_DOCS.md with endpoint descriptions
+- Documented request/response schemas
+
