@@ -508,3 +508,5 @@
 <!-- extra: style: consistent border radius tokens at 2026-05-22 13:39:00 -->
 
 <!-- extra: docs: add authentication flow diagram at 2026-05-23 11:13:00 -->
+
+<!-- extra: docs: response schema examples at 2026-05-23 12:26:00 -->
