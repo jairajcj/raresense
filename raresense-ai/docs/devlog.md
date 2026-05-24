@@ -794,3 +794,5 @@
 <!-- [2026-05-18-4] style: badge pulse animation @ 2026-05-18 12:44:00 -->
 
 <!-- [2026-05-24-1] chore: pre-release review @ 2026-05-24 09:11:00 -->
+
+<!-- [2026-05-24-2] fix: CI build failing on Windows @ 2026-05-24 10:22:00 -->
