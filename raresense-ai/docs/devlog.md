@@ -796,3 +796,5 @@
 <!-- [2026-05-24-1] chore: pre-release review @ 2026-05-24 09:11:00 -->
 
 <!-- [2026-05-24-2] fix: CI build failing on Windows @ 2026-05-24 10:22:00 -->
+
+<!-- [2026-05-24-3] refactor: path separators cross-platform @ 2026-05-24 11:33:00 -->
