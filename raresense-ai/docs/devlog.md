@@ -800,3 +800,5 @@
 <!-- [2026-05-24-3] refactor: path separators cross-platform @ 2026-05-24 11:33:00 -->
 
 <!-- [2026-05-24-4] style: badge shields in README @ 2026-05-24 12:44:00 -->
+
+<!-- [2026-05-25-1] docs: update architecture notes @ 2026-05-25 09:11:00 -->
