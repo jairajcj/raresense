@@ -806,3 +806,5 @@
 <!-- [2026-05-25-2] fix: stale prop in Dashboard @ 2026-05-25 10:22:00 -->
 
 <!-- [2026-05-25-3] refactor: Dashboard data fetching @ 2026-05-25 11:33:00 -->
+
+<!-- [2026-05-25-4] style: dashboard grid gap @ 2026-05-25 12:44:00 -->
