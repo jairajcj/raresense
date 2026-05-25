@@ -802,3 +802,5 @@
 <!-- [2026-05-24-4] style: badge shields in README @ 2026-05-24 12:44:00 -->
 
 <!-- [2026-05-25-1] docs: update architecture notes @ 2026-05-25 09:11:00 -->
+
+<!-- [2026-05-25-2] fix: stale prop in Dashboard @ 2026-05-25 10:22:00 -->
