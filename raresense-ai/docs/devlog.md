@@ -516,3 +516,5 @@
 <!-- extra: fix: unhandled promise in error handler at 2026-05-26 11:13:00 -->
 
 <!-- extra: refactor: centralised error factory at 2026-05-26 12:26:00 -->
+
+<!-- extra: test: error handler tests at 2026-05-26 13:39:00 -->
