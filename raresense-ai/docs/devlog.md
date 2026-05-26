@@ -175,3 +175,8 @@
 - Added API_DOCS.md with endpoint descriptions
 - Documented request/response schemas
 
+
+## 2026-05-26
+- Standardized error response format
+- Added 404 and 500 error handlers
+
