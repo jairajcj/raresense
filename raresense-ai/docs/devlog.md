@@ -522,3 +522,5 @@
 <!-- extra: fix: skeleton flicker on fast load at 2026-05-27 11:13:00 -->
 
 <!-- extra: refactor: Skeleton component variants at 2026-05-27 12:26:00 -->
+
+<!-- extra: style: skeleton shimmer animation at 2026-05-27 13:39:00 -->
