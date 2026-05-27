@@ -180,3 +180,8 @@
 - Standardized error response format
 - Added 404 and 500 error handlers
 
+
+## 2026-05-27
+- Added skeleton loaders for patient cards and tables
+- Improved perceived performance
+
