@@ -520,3 +520,5 @@
 <!-- extra: test: error handler tests at 2026-05-26 13:39:00 -->
 
 <!-- extra: fix: skeleton flicker on fast load at 2026-05-27 11:13:00 -->
+
+<!-- extra: refactor: Skeleton component variants at 2026-05-27 12:26:00 -->
