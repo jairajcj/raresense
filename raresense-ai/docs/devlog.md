@@ -185,3 +185,8 @@
 - Added skeleton loaders for patient cards and tables
 - Improved perceived performance
 
+
+## 2026-05-28
+- Added timeline component for patient medical history
+- Sorted events chronologically
+
