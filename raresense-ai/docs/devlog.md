@@ -528,3 +528,5 @@
 <!-- extra: fix: timeline event ordering bug at 2026-05-28 11:13:00 -->
 
 <!-- extra: refactor: TimelineEvent component at 2026-05-28 12:26:00 -->
+
+<!-- extra: style: timeline connector line at 2026-05-28 13:39:00 -->
