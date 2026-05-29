@@ -534,3 +534,5 @@
 <!-- extra: fix: index not applied on restart at 2026-05-29 11:13:00 -->
 
 <!-- extra: refactor: db init function at 2026-05-29 12:26:00 -->
+
+<!-- extra: chore: add index creation logging at 2026-05-29 13:39:00 -->
