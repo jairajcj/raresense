@@ -532,3 +532,5 @@
 <!-- extra: style: timeline connector line at 2026-05-28 13:39:00 -->
 
 <!-- extra: fix: index not applied on restart at 2026-05-29 11:13:00 -->
+
+<!-- extra: refactor: db init function at 2026-05-29 12:26:00 -->
