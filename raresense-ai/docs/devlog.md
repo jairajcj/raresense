@@ -190,3 +190,8 @@
 - Added timeline component for patient medical history
 - Sorted events chronologically
 
+
+## 2026-05-29
+- Added compound indexes on patients collection
+- Reduced query latency for search
+
