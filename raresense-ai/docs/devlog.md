@@ -530,3 +530,5 @@
 <!-- extra: refactor: TimelineEvent component at 2026-05-28 12:26:00 -->
 
 <!-- extra: style: timeline connector line at 2026-05-28 13:39:00 -->
+
+<!-- extra: fix: index not applied on restart at 2026-05-29 11:13:00 -->
