@@ -195,3 +195,8 @@
 - Added compound indexes on patients collection
 - Reduced query latency for search
 
+
+## 2026-05-30
+- Cleaned up unused imports in auth.py
+- Standardised response messages
+
