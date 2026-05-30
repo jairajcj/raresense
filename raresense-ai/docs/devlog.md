@@ -538,3 +538,5 @@
 <!-- extra: chore: add index creation logging at 2026-05-29 13:39:00 -->
 
 <!-- extra: fix: unused variable in auth.py at 2026-05-30 11:13:00 -->
+
+<!-- extra: refactor: response builder helper at 2026-05-30 12:26:00 -->
