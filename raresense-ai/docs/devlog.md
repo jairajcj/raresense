@@ -536,3 +536,5 @@
 <!-- extra: refactor: db init function at 2026-05-29 12:26:00 -->
 
 <!-- extra: chore: add index creation logging at 2026-05-29 13:39:00 -->
+
+<!-- extra: fix: unused variable in auth.py at 2026-05-30 11:13:00 -->
