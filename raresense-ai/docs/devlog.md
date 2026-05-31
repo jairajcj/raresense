@@ -810,3 +810,5 @@
 <!-- [2026-05-25-4] style: dashboard grid gap @ 2026-05-25 12:44:00 -->
 
 <!-- [2026-05-31-1] chore: May retrospective notes @ 2026-05-31 09:11:00 -->
+
+<!-- [2026-05-31-2] docs: add known issues section @ 2026-05-31 10:22:00 -->
