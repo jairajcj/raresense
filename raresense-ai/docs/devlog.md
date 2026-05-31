@@ -814,3 +814,5 @@
 <!-- [2026-05-31-2] docs: add known issues section @ 2026-05-31 10:22:00 -->
 
 <!-- [2026-05-31-3] fix: minor UI regressions @ 2026-05-31 11:33:00 -->
+
+<!-- [2026-05-31-4] style: consistent icon sizes @ 2026-05-31 12:44:00 -->
