@@ -822,3 +822,5 @@
 <!-- [2026-06-01-2] fix: print stylesheet overflow @ 2026-06-01 10:22:00 -->
 
 <!-- [2026-06-01-3] refactor: printStyles module @ 2026-06-01 11:33:00 -->
+
+<!-- [2026-06-01-4] style: print media queries @ 2026-06-01 12:44:00 -->
