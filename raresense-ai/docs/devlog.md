@@ -820,3 +820,5 @@
 <!-- [2026-06-01-1] feat: add print patient report button @ 2026-06-01 09:11:00 -->
 
 <!-- [2026-06-01-2] fix: print stylesheet overflow @ 2026-06-01 10:22:00 -->
+
+<!-- [2026-06-01-3] refactor: printStyles module @ 2026-06-01 11:33:00 -->
