@@ -816,3 +816,5 @@
 <!-- [2026-05-31-3] fix: minor UI regressions @ 2026-05-31 11:33:00 -->
 
 <!-- [2026-05-31-4] style: consistent icon sizes @ 2026-05-31 12:44:00 -->
+
+<!-- [2026-06-01-1] feat: add print patient report button @ 2026-06-01 09:11:00 -->
