@@ -542,3 +542,5 @@
 <!-- extra: refactor: response builder helper at 2026-05-30 12:26:00 -->
 
 <!-- extra: style: consistent 200/201 status codes at 2026-05-30 13:39:00 -->
+
+<!-- extra: fix: chart tooltip overflow at 2026-06-02 10:15:00 -->
