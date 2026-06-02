@@ -2554,3 +2554,5 @@
 <!-- boost: style: apply consistent formatting @ 2026-06-02 10:10:00 -->
 
 <!-- boost: test: add unit test coverage @ 2026-06-02 11:17:00 -->
+
+<!-- boost: docs: update inline comments @ 2026-06-02 12:24:00 -->
