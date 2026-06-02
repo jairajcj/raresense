@@ -200,3 +200,8 @@
 - Cleaned up unused imports in auth.py
 - Standardised response messages
 
+
+## 2026-06-02
+- Added bar chart for disease frequency analytics
+- Integrated Chart.js components
+
