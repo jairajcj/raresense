@@ -550,3 +550,5 @@
 <!-- extra: style: chart color palette at 2026-06-02 12:45:00 -->
 
 <!-- extra: fix: demographics null gender handling at 2026-06-03 10:15:00 -->
+
+<!-- extra: refactor: demographics pipeline at 2026-06-03 11:30:00 -->
