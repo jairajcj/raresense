@@ -188,3 +188,4 @@
 # 2026-06-02-1 - feat: minor UI enhancement
 # 2026-06-02-2 - chore: clean up unused imports
 # 2026-06-03-0 - fix: null pointer guard
+# 2026-06-03-1 - refactor: extract helper function
