@@ -552,3 +552,5 @@
 <!-- extra: fix: demographics null gender handling at 2026-06-03 10:15:00 -->
 
 <!-- extra: refactor: demographics pipeline at 2026-06-03 11:30:00 -->
+
+<!-- extra: style: pie chart label formatting at 2026-06-03 12:45:00 -->
