@@ -205,3 +205,8 @@
 - Added bar chart for disease frequency analytics
 - Integrated Chart.js components
 
+
+## 2026-06-03
+- Added age and gender breakdown charts
+- Backend aggregation pipeline for demographics
+
