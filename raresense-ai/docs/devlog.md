@@ -554,3 +554,5 @@
 <!-- extra: refactor: demographics pipeline at 2026-06-03 11:30:00 -->
 
 <!-- extra: style: pie chart label formatting at 2026-06-03 12:45:00 -->
+
+<!-- extra: fix: code block language detection at 2026-06-04 10:15:00 -->
