@@ -210,3 +210,8 @@
 - Added age and gender breakdown charts
 - Backend aggregation pipeline for demographics
 
+
+## 2026-06-04
+- Fixed markdown rendering in AI chat responses
+- Added syntax highlighting for code blocks
+
