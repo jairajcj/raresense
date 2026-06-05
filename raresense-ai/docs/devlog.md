@@ -215,3 +215,8 @@
 - Fixed markdown rendering in AI chat responses
 - Added syntax highlighting for code blocks
 
+
+## 2026-06-05
+- Implemented rate limiting on /ai/query
+- 20 requests per minute per user
+
