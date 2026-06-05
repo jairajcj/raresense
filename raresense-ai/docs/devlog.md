@@ -560,3 +560,5 @@
 <!-- extra: refactor: MarkdownRenderer component at 2026-06-04 11:30:00 -->
 
 <!-- extra: style: chat message padding at 2026-06-04 12:45:00 -->
+
+<!-- extra: fix: rate limit header not sent at 2026-06-05 10:15:00 -->
