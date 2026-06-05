@@ -564,3 +564,5 @@
 <!-- extra: fix: rate limit header not sent at 2026-06-05 10:15:00 -->
 
 <!-- extra: refactor: rate limiter decorator at 2026-06-05 11:30:00 -->
+
+<!-- extra: test: rate limit endpoint test at 2026-06-05 12:45:00 -->
