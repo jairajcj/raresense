@@ -196,3 +196,4 @@
 # 2026-06-05-0 - refactor: simplify boolean logic
 # 2026-06-05-1 - perf: reduce unnecessary re-renders
 # 2026-06-05-2 - test: improve assertion coverage
+# 2026-06-06-0 - fix: correct variable scope
