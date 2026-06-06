@@ -220,3 +220,8 @@
 - Implemented rate limiting on /ai/query
 - 20 requests per minute per user
 
+
+## 2026-06-06
+- Built toast notification component
+- Integrated success/error toasts across all pages
+
