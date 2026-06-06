@@ -566,3 +566,5 @@
 <!-- extra: refactor: rate limiter decorator at 2026-06-05 11:30:00 -->
 
 <!-- extra: test: rate limit endpoint test at 2026-06-05 12:45:00 -->
+
+<!-- extra: fix: toast duplicate on retry at 2026-06-06 10:15:00 -->
