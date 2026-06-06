@@ -570,3 +570,5 @@
 <!-- extra: fix: toast duplicate on retry at 2026-06-06 10:15:00 -->
 
 <!-- extra: refactor: toast queue manager at 2026-06-06 11:30:00 -->
+
+<!-- extra: style: toast slide-in animation at 2026-06-06 12:45:00 -->
