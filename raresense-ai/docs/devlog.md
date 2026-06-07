@@ -830,3 +830,5 @@
 <!-- [2026-06-07-2] fix: race condition in auth refresh @ 2026-06-07 10:22:00 -->
 
 <!-- [2026-06-07-3] refactor: token refresh queue @ 2026-06-07 11:33:00 -->
+
+<!-- [2026-06-07-4] test: concurrent refresh test @ 2026-06-07 12:44:00 -->
