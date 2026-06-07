@@ -826,3 +826,5 @@
 <!-- [2026-06-01-4] style: print media queries @ 2026-06-01 12:44:00 -->
 
 <!-- [2026-06-07-1] chore: weekend bug bash @ 2026-06-07 09:11:00 -->
+
+<!-- [2026-06-07-2] fix: race condition in auth refresh @ 2026-06-07 10:22:00 -->
