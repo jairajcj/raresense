@@ -834,3 +834,5 @@
 <!-- [2026-06-07-4] test: concurrent refresh test @ 2026-06-07 12:44:00 -->
 
 <!-- [2026-06-08-1] feat: add dark/light theme toggle @ 2026-06-08 09:11:00 -->
+
+<!-- [2026-06-08-2] fix: theme flash on load @ 2026-06-08 10:22:00 -->
