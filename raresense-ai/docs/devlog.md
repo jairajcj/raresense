@@ -836,3 +836,5 @@
 <!-- [2026-06-08-1] feat: add dark/light theme toggle @ 2026-06-08 09:11:00 -->
 
 <!-- [2026-06-08-2] fix: theme flash on load @ 2026-06-08 10:22:00 -->
+
+<!-- [2026-06-08-3] refactor: ThemeProvider component @ 2026-06-08 11:33:00 -->
