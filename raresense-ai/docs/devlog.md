@@ -572,3 +572,5 @@
 <!-- extra: refactor: toast queue manager at 2026-06-06 11:30:00 -->
 
 <!-- extra: style: toast slide-in animation at 2026-06-06 12:45:00 -->
+
+<!-- extra: fix: form dirty state on cancel at 2026-06-09 10:15:00 -->
