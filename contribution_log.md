@@ -205,3 +205,4 @@
 # 2026-06-08-0 - chore: remove debug statements
 # 2026-06-08-1 - fix: improve error messages
 # 2026-06-08-2 - refactor: consolidate duplicated code
+# 2026-06-09-0 - perf: cache repeated computations
