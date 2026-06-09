@@ -225,3 +225,8 @@
 - Built toast notification component
 - Integrated success/error toasts across all pages
 
+
+## 2026-06-09
+- Extracted PatientForm into shared component
+- Used in both Create and Edit flows
+
