@@ -576,3 +576,5 @@
 <!-- extra: fix: form dirty state on cancel at 2026-06-09 10:15:00 -->
 
 <!-- extra: refactor: useForm hook at 2026-06-09 11:30:00 -->
+
+<!-- extra: style: form field focus ring at 2026-06-09 12:45:00 -->
