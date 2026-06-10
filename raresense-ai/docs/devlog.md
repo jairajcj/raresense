@@ -580,3 +580,5 @@
 <!-- extra: style: form field focus ring at 2026-06-09 12:45:00 -->
 
 <!-- extra: fix: CSV encoding for special chars at 2026-06-10 10:15:00 -->
+
+<!-- extra: refactor: csv_exporter utility at 2026-06-10 11:30:00 -->
