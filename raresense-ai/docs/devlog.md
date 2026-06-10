@@ -230,3 +230,8 @@
 - Extracted PatientForm into shared component
 - Used in both Create and Edit flows
 
+
+## 2026-06-10
+- Added GET /patients/export endpoint
+- Returns CSV with patient fields
+
