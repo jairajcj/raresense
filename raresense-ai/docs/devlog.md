@@ -582,3 +582,5 @@
 <!-- extra: fix: CSV encoding for special chars at 2026-06-10 10:15:00 -->
 
 <!-- extra: refactor: csv_exporter utility at 2026-06-10 11:30:00 -->
+
+<!-- extra: test: CSV export test at 2026-06-10 12:45:00 -->
