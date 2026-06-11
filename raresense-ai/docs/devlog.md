@@ -235,3 +235,8 @@
 - Added GET /patients/export endpoint
 - Returns CSV with patient fields
 
+
+## 2026-06-11
+- Added Export button to Patients page
+- Triggers CSV download via blob URL
+
