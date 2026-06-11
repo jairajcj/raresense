@@ -2766,3 +2766,5 @@
 <!-- boost: fix: resolve null pointer in patient loader @ 2026-06-11 08:56:00 -->
 
 <!-- boost: refactor: extract helper function @ 2026-06-11 09:03:00 -->
+
+<!-- boost: style: apply consistent formatting @ 2026-06-11 10:10:00 -->
