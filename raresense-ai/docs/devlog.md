@@ -240,3 +240,8 @@
 - Added Export button to Patients page
 - Triggers CSV download via blob URL
 
+
+## 2026-06-12
+- Updated README with full setup steps
+- Added .env.example file
+
