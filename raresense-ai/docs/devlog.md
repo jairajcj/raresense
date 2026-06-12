@@ -592,3 +592,5 @@
 <!-- extra: style: export button loading state at 2026-06-11 12:45:00 -->
 
 <!-- extra: docs: add .env.example file at 2026-06-12 10:15:00 -->
+
+<!-- extra: docs: contributor guide at 2026-06-12 11:30:00 -->
