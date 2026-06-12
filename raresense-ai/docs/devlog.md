@@ -590,3 +590,5 @@
 <!-- extra: refactor: useDownload hook at 2026-06-11 11:30:00 -->
 
 <!-- extra: style: export button loading state at 2026-06-11 12:45:00 -->
+
+<!-- extra: docs: add .env.example file at 2026-06-12 10:15:00 -->
