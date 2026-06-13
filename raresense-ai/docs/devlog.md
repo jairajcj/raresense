@@ -600,3 +600,5 @@
 <!-- extra: test: add patient model test at 2026-06-13 10:15:00 -->
 
 <!-- extra: test: search route test at 2026-06-13 11:30:00 -->
+
+<!-- extra: fix: test DB teardown issue at 2026-06-13 12:45:00 -->
