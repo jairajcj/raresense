@@ -245,3 +245,8 @@
 - Updated README with full setup steps
 - Added .env.example file
 
+
+## 2026-06-13
+- Wrote pytest test cases for auth endpoints
+- Added test for patient CRUD
+
