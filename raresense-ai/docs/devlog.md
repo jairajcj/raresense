@@ -840,3 +840,5 @@
 <!-- [2026-06-08-3] refactor: ThemeProvider component @ 2026-06-08 11:33:00 -->
 
 <!-- [2026-06-08-4] style: theme transition animation @ 2026-06-08 12:44:00 -->
+
+<!-- [2026-06-14-1] chore: accessibility audit @ 2026-06-14 09:11:00 -->
