@@ -846,3 +846,5 @@
 <!-- [2026-06-14-2] fix: missing aria-labels on buttons @ 2026-06-14 10:22:00 -->
 
 <!-- [2026-06-14-3] refactor: add aria attributes @ 2026-06-14 11:33:00 -->
+
+<!-- [2026-06-14-4] style: focus ring visibility @ 2026-06-14 12:44:00 -->
