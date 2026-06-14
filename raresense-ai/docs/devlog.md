@@ -844,3 +844,5 @@
 <!-- [2026-06-14-1] chore: accessibility audit @ 2026-06-14 09:11:00 -->
 
 <!-- [2026-06-14-2] fix: missing aria-labels on buttons @ 2026-06-14 10:22:00 -->
+
+<!-- [2026-06-14-3] refactor: add aria attributes @ 2026-06-14 11:33:00 -->
