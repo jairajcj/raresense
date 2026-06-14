@@ -842,3 +842,5 @@
 <!-- [2026-06-08-4] style: theme transition animation @ 2026-06-08 12:44:00 -->
 
 <!-- [2026-06-14-1] chore: accessibility audit @ 2026-06-14 09:11:00 -->
+
+<!-- [2026-06-14-2] fix: missing aria-labels on buttons @ 2026-06-14 10:22:00 -->
