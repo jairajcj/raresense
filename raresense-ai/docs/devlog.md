@@ -848,3 +848,5 @@
 <!-- [2026-06-14-3] refactor: add aria attributes @ 2026-06-14 11:33:00 -->
 
 <!-- [2026-06-14-4] style: focus ring visibility @ 2026-06-14 12:44:00 -->
+
+<!-- [2026-06-15-1] feat: keyboard navigation support @ 2026-06-15 09:11:00 -->
