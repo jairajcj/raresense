@@ -850,3 +850,5 @@
 <!-- [2026-06-14-4] style: focus ring visibility @ 2026-06-14 12:44:00 -->
 
 <!-- [2026-06-15-1] feat: keyboard navigation support @ 2026-06-15 09:11:00 -->
+
+<!-- [2026-06-15-2] fix: tab order in modal dialogs @ 2026-06-15 10:22:00 -->
