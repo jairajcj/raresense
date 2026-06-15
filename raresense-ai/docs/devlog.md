@@ -854,3 +854,5 @@
 <!-- [2026-06-15-2] fix: tab order in modal dialogs @ 2026-06-15 10:22:00 -->
 
 <!-- [2026-06-15-3] refactor: FocusTrap component @ 2026-06-15 11:33:00 -->
+
+<!-- [2026-06-15-4] style: skip-link styling @ 2026-06-15 12:44:00 -->
