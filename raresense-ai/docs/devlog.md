@@ -250,3 +250,8 @@
 - Wrote pytest test cases for auth endpoints
 - Added test for patient CRUD
 
+
+## 2026-06-16
+- Added ObjectId validation in all route params
+- Return 400 on invalid IDs
+
