@@ -610,3 +610,5 @@
 <!-- extra: test: invalid ID response test at 2026-06-16 12:45:00 -->
 
 <!-- extra: fix: debounce cleanup on unmount at 2026-06-17 10:15:00 -->
+
+<!-- extra: refactor: useDebounce hook at 2026-06-17 11:30:00 -->
