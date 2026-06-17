@@ -255,3 +255,8 @@
 - Added ObjectId validation in all route params
 - Return 400 on invalid IDs
 
+
+## 2026-06-17
+- Added debounced search input in Patients page
+- 300ms debounce prevents excess API calls
+
