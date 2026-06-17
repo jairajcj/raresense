@@ -608,3 +608,5 @@
 <!-- extra: refactor: id_validator middleware at 2026-06-16 11:30:00 -->
 
 <!-- extra: test: invalid ID response test at 2026-06-16 12:45:00 -->
+
+<!-- extra: fix: debounce cleanup on unmount at 2026-06-17 10:15:00 -->
