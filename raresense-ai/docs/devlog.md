@@ -614,3 +614,5 @@
 <!-- extra: refactor: useDebounce hook at 2026-06-17 11:30:00 -->
 
 <!-- extra: style: search input clear button at 2026-06-17 12:45:00 -->
+
+<!-- extra: fix: disease detail 500 on missing field at 2026-06-18 10:15:00 -->
