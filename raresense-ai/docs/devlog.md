@@ -618,3 +618,5 @@
 <!-- extra: fix: disease detail 500 on missing field at 2026-06-18 10:15:00 -->
 
 <!-- extra: refactor: disease serializer at 2026-06-18 11:30:00 -->
+
+<!-- extra: style: disease profile layout at 2026-06-18 12:45:00 -->
