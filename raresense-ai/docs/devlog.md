@@ -260,3 +260,8 @@
 - Added debounced search input in Patients page
 - 300ms debounce prevents excess API calls
 
+
+## 2026-06-18
+- Added GET /diseases/:id endpoint
+- Returns full disease profile with symptoms list
+
