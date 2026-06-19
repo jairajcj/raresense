@@ -624,3 +624,5 @@
 <!-- extra: fix: linked patients list pagination at 2026-06-19 10:15:00 -->
 
 <!-- extra: refactor: DiseaseDetail tabs at 2026-06-19 11:30:00 -->
+
+<!-- extra: style: disease page hero section at 2026-06-19 12:45:00 -->
