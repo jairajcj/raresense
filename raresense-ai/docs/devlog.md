@@ -265,3 +265,8 @@
 - Added GET /diseases/:id endpoint
 - Returns full disease profile with symptoms list
 
+
+## 2026-06-19
+- Built Disease detail page
+- Shows prevalence, symptoms, and linked patients
+
