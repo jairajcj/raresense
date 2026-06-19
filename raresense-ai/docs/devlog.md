@@ -620,3 +620,5 @@
 <!-- extra: refactor: disease serializer at 2026-06-18 11:30:00 -->
 
 <!-- extra: style: disease profile layout at 2026-06-18 12:45:00 -->
+
+<!-- extra: fix: linked patients list pagination at 2026-06-19 10:15:00 -->
