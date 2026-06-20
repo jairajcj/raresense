@@ -630,3 +630,5 @@
 <!-- extra: fix: Suspense fallback flicker at 2026-06-20 10:15:00 -->
 
 <!-- extra: refactor: LazyRoute wrapper at 2026-06-20 11:30:00 -->
+
+<!-- extra: style: page loading indicator at 2026-06-20 12:45:00 -->
