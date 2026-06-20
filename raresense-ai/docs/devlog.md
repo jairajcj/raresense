@@ -626,3 +626,5 @@
 <!-- extra: refactor: DiseaseDetail tabs at 2026-06-19 11:30:00 -->
 
 <!-- extra: style: disease page hero section at 2026-06-19 12:45:00 -->
+
+<!-- extra: fix: Suspense fallback flicker at 2026-06-20 10:15:00 -->
