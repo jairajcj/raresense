@@ -270,3 +270,8 @@
 - Built Disease detail page
 - Shows prevalence, symptoms, and linked patients
 
+
+## 2026-06-20
+- Applied React.lazy for route-level code splitting
+- Reduced initial bundle size
+
