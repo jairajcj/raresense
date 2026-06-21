@@ -858,3 +858,5 @@
 <!-- [2026-06-15-4] style: skip-link styling @ 2026-06-15 12:44:00 -->
 
 <!-- [2026-06-21-1] chore: final feature freeze prep @ 2026-06-21 09:11:00 -->
+
+<!-- [2026-06-21-2] fix: last known UI bugs @ 2026-06-21 10:22:00 -->
