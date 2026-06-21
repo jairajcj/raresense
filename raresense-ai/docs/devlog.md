@@ -3018,3 +3018,5 @@
 <!-- boost: fix: handle edge case in parser @ 2026-06-21 14:38:00 -->
 
 <!-- boost: perf: optimise database query @ 2026-06-21 15:45:00 -->
+
+<!-- boost: fix: correct off-by-one error @ 2026-06-21 16:52:00 -->
