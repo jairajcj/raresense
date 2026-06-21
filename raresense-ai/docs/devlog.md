@@ -860,3 +860,5 @@
 <!-- [2026-06-21-1] chore: final feature freeze prep @ 2026-06-21 09:11:00 -->
 
 <!-- [2026-06-21-2] fix: last known UI bugs @ 2026-06-21 10:22:00 -->
+
+<!-- [2026-06-21-3] refactor: remove dead code @ 2026-06-21 11:33:00 -->
