@@ -245,3 +245,4 @@
 # 2026-06-21-1 - style: fix formatting inconsistencies
 # 2026-06-21-2 - perf: optimise render loop
 # 2026-06-22-0 - test: add missing test coverage
+# 2026-06-22-1 - feat: minor UI enhancement
