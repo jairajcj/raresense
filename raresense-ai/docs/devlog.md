@@ -864,3 +864,5 @@
 <!-- [2026-06-21-3] refactor: remove dead code @ 2026-06-21 11:33:00 -->
 
 <!-- [2026-06-21-4] style: final spacing pass @ 2026-06-21 12:44:00 -->
+
+<!-- [2026-06-22-1] docs: add user guide draft @ 2026-06-22 09:11:00 -->
