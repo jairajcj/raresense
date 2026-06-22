@@ -868,3 +868,5 @@
 <!-- [2026-06-22-1] docs: add user guide draft @ 2026-06-22 09:11:00 -->
 
 <!-- [2026-06-22-2] fix: broken internal doc links @ 2026-06-22 10:22:00 -->
+
+<!-- [2026-06-22-3] refactor: docs folder structure @ 2026-06-22 11:33:00 -->
