@@ -866,3 +866,5 @@
 <!-- [2026-06-21-4] style: final spacing pass @ 2026-06-21 12:44:00 -->
 
 <!-- [2026-06-22-1] docs: add user guide draft @ 2026-06-22 09:11:00 -->
+
+<!-- [2026-06-22-2] fix: broken internal doc links @ 2026-06-22 10:22:00 -->
