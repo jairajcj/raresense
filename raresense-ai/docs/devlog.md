@@ -636,3 +636,5 @@
 <!-- extra: fix: transition z-index conflict at 2026-06-23 10:15:00 -->
 
 <!-- extra: refactor: PageTransition component at 2026-06-23 11:30:00 -->
+
+<!-- extra: style: easing curve refinement at 2026-06-23 12:45:00 -->
