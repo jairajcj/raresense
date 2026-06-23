@@ -275,3 +275,8 @@
 - Applied React.lazy for route-level code splitting
 - Reduced initial bundle size
 
+
+## 2026-06-23
+- Added fade-in transition on page navigation
+- CSS keyframe animations for route changes
+
