@@ -640,3 +640,5 @@
 <!-- extra: style: easing curve refinement at 2026-06-23 12:45:00 -->
 
 <!-- extra: fix: health check DB timeout at 2026-06-24 10:15:00 -->
+
+<!-- extra: refactor: health status serializer at 2026-06-24 11:30:00 -->
