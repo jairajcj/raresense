@@ -280,3 +280,8 @@
 - Added fade-in transition on page navigation
 - CSS keyframe animations for route changes
 
+
+## 2026-06-24
+- Added GET /health endpoint
+- Returns server status and DB connectivity
+
