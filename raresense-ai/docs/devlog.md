@@ -644,3 +644,5 @@
 <!-- extra: refactor: health status serializer at 2026-06-24 11:30:00 -->
 
 <!-- extra: test: health endpoint test at 2026-06-24 12:45:00 -->
+
+<!-- extra: fix: ESLint no-unused-vars at 2026-06-25 10:15:00 -->
