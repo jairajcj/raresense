@@ -3120,3 +3120,5 @@
 <!-- boost: refactor: simplify conditional logic @ 2026-06-25 17:59:00 -->
 
 <!-- boost: style: fix indentation and spacing @ 2026-06-25 18:06:00 -->
+
+<!-- boost: test: improve assertion messages @ 2026-06-25 19:13:00 -->
