@@ -253,3 +253,4 @@
 # 2026-06-24-0 - style: apply linting rules
 # 2026-06-24-1 - fix: handle empty response
 # 2026-06-24-2 - chore: update config values
+# 2026-06-25-0 - refactor: simplify boolean logic
