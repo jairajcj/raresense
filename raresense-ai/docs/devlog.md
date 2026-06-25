@@ -285,3 +285,9 @@
 - Added GET /health endpoint
 - Returns server status and DB connectivity
 
+
+## 2026-06-25
+- Ran ESLint and fixed all warnings
+- Removed console.log statements
+- PEP8 formatting on Python files
+
