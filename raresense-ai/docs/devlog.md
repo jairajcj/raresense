@@ -291,3 +291,8 @@
 - Removed console.log statements
 - PEP8 formatting on Python files
 
+
+## 2026-06-26
+- Generated Review 2 PPT from script
+- Added updated screenshots and demo flow
+
