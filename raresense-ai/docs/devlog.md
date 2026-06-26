@@ -654,3 +654,5 @@
 <!-- extra: chore: generate final PPT assets at 2026-06-26 10:15:00 -->
 
 <!-- extra: docs: update changelog at 2026-06-26 11:30:00 -->
+
+<!-- extra: chore: tag release candidate v0.1.0 at 2026-06-26 12:45:00 -->
