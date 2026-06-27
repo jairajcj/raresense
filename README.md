@@ -89,10 +89,24 @@ raresense-ai/
 - **Secure Authentication**: JWT-based user authentication and role management.
 - **Patient Management**: Detailed patient dossiers, medical histories, and progress tracking.
 
-## Contributing
+## Team Contributions
 
-1. Fork the repository
-2. Create a new branch (`git checkout -b feature/your-feature-name`)
-3. Commit your changes (`git commit -m 'Add some feature'`)
-4. Push to the branch (`git push origin feature/your-feature-name`)
-5. Open a pull request
+This project was developed collaboratively by three team members:
+
+### Member 1: Frontend & UI/UX Development
+- Developed the React frontend using Vite and React Router.
+- Designed the user interface and responsive layouts.
+- Implemented data visualizations using Recharts.
+- Integrated frontend components with backend REST APIs.
+
+### Member 2: Backend API & Database Architecture
+- Built the backend infrastructure using FastAPI.
+- Designed database schemas and Pydantic models.
+- Implemented user authentication (JWT) and secure routing.
+- Developed core CRUD endpoints for patients and diseases, and managed MongoDB integrations.
+
+### Member 3: AI/NLP Engine & Data Analytics
+- Developed the core NLP matching engine (`nlp_engine.py`, `matcher.py`).
+- Implemented algorithms to match patients with rare diseases and clinical trials.
+- Created data seeding scripts for initial database population.
+- Built analytics endpoints to provide insights and confidence scores.
