@@ -878,3 +878,5 @@
 <!-- [2026-06-27-2] fix: demo data seed issues @ 2026-06-27 10:22:00 -->
 
 <!-- [2026-06-27-3] refactor: demo mode flag @ 2026-06-27 11:33:00 -->
+
+<!-- [2026-06-27-4] style: demo banner component @ 2026-06-27 12:44:00 -->
