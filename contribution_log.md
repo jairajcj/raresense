@@ -259,3 +259,4 @@
 # 2026-06-26-0 - fix: correct variable scope
 # 2026-06-26-1 - chore: update changelog
 # 2026-06-26-2 - style: consistent spacing
+# 2026-06-27-0 - refactor: rename for clarity
