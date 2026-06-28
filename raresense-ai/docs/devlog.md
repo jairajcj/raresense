@@ -886,3 +886,5 @@
 <!-- [2026-06-28-2] fix: issues found in demo @ 2026-06-28 10:22:00 -->
 
 <!-- [2026-06-28-3] docs: demo feedback notes @ 2026-06-28 11:33:00 -->
+
+<!-- [2026-06-28-4] style: minor UI tweaks from feedback @ 2026-06-28 12:44:00 -->
