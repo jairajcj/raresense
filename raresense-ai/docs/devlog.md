@@ -882,3 +882,5 @@
 <!-- [2026-06-27-4] style: demo banner component @ 2026-06-27 12:44:00 -->
 
 <!-- [2026-06-28-1] chore: post-demo review @ 2026-06-28 09:11:00 -->
+
+<!-- [2026-06-28-2] fix: issues found in demo @ 2026-06-28 10:22:00 -->
