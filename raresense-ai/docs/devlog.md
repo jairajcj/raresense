@@ -888,3 +888,5 @@
 <!-- [2026-06-28-3] docs: demo feedback notes @ 2026-06-28 11:33:00 -->
 
 <!-- [2026-06-28-4] style: minor UI tweaks from feedback @ 2026-06-28 12:44:00 -->
+
+<!-- [2026-06-29-1] feat: implement feedback from review @ 2026-06-29 09:11:00 -->
