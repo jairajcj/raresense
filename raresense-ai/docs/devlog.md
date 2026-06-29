@@ -894,3 +894,5 @@
 <!-- [2026-06-29-2] fix: patient filter reset bug @ 2026-06-29 10:22:00 -->
 
 <!-- [2026-06-29-3] refactor: filter state persistence @ 2026-06-29 11:33:00 -->
+
+<!-- [2026-06-29-4] style: active filter chip design @ 2026-06-29 12:44:00 -->
