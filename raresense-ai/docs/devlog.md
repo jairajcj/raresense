@@ -890,3 +890,5 @@
 <!-- [2026-06-28-4] style: minor UI tweaks from feedback @ 2026-06-28 12:44:00 -->
 
 <!-- [2026-06-29-1] feat: implement feedback from review @ 2026-06-29 09:11:00 -->
+
+<!-- [2026-06-29-2] fix: patient filter reset bug @ 2026-06-29 10:22:00 -->
