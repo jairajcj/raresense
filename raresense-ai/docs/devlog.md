@@ -902,3 +902,5 @@
 <!-- [2026-06-30-2] docs: update sprint board @ 2026-06-30 10:22:00 -->
 
 <!-- [2026-06-30-3] fix: final June bug fixes @ 2026-06-30 11:33:00 -->
+
+<!-- [2026-06-30-4] style: global spacing consistency @ 2026-06-30 12:44:00 -->
