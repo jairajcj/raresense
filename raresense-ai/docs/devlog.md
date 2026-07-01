@@ -908,3 +908,5 @@
 <!-- [2026-07-01-1] feat: July sprint kickoff - new features @ 2026-07-01 09:11:00 -->
 
 <!-- [2026-07-01-2] fix: performance regression in search @ 2026-07-01 10:22:00 -->
+
+<!-- [2026-07-01-3] refactor: search debounce timing @ 2026-07-01 11:33:00 -->
