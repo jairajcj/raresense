@@ -912,3 +912,5 @@
 <!-- [2026-07-01-3] refactor: search debounce timing @ 2026-07-01 11:33:00 -->
 
 <!-- [2026-07-01-4] style: search result highlight @ 2026-07-01 12:44:00 -->
+
+<!-- [2026-07-02-1] feat: add patient export to PDF @ 2026-07-02 09:11:00 -->
