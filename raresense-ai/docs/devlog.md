@@ -918,3 +918,5 @@
 <!-- [2026-07-02-2] fix: PDF font embedding @ 2026-07-02 10:22:00 -->
 
 <!-- [2026-07-02-3] refactor: pdf_generator service @ 2026-07-02 11:33:00 -->
+
+<!-- [2026-07-02-4] style: PDF layout template @ 2026-07-02 12:44:00 -->
