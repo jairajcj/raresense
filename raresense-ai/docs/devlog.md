@@ -916,3 +916,5 @@
 <!-- [2026-07-02-1] feat: add patient export to PDF @ 2026-07-02 09:11:00 -->
 
 <!-- [2026-07-02-2] fix: PDF font embedding @ 2026-07-02 10:22:00 -->
+
+<!-- [2026-07-02-3] refactor: pdf_generator service @ 2026-07-02 11:33:00 -->
