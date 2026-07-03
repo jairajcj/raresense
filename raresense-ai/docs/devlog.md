@@ -920,3 +920,5 @@
 <!-- [2026-07-02-3] refactor: pdf_generator service @ 2026-07-02 11:33:00 -->
 
 <!-- [2026-07-02-4] style: PDF layout template @ 2026-07-02 12:44:00 -->
+
+<!-- [2026-07-03-1] feat: add disease bookmark feature @ 2026-07-03 09:11:00 -->
