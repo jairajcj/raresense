@@ -924,3 +924,5 @@
 <!-- [2026-07-03-1] feat: add disease bookmark feature @ 2026-07-03 09:11:00 -->
 
 <!-- [2026-07-03-2] fix: bookmark state not persisted @ 2026-07-03 10:22:00 -->
+
+<!-- [2026-07-03-3] refactor: useBookmarks hook @ 2026-07-03 11:33:00 -->
