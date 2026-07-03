@@ -926,3 +926,5 @@
 <!-- [2026-07-03-2] fix: bookmark state not persisted @ 2026-07-03 10:22:00 -->
 
 <!-- [2026-07-03-3] refactor: useBookmarks hook @ 2026-07-03 11:33:00 -->
+
+<!-- [2026-07-03-4] style: bookmark icon animation @ 2026-07-03 12:44:00 -->
