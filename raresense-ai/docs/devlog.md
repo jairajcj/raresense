@@ -934,3 +934,5 @@
 <!-- [2026-07-04-2] fix: render bottleneck in PatientList @ 2026-07-04 10:22:00 -->
 
 <!-- [2026-07-04-3] refactor: virtualize long lists @ 2026-07-04 11:33:00 -->
+
+<!-- [2026-07-04-4] style: list item height @ 2026-07-04 12:44:00 -->
