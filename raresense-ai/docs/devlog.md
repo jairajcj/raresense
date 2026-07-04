@@ -932,3 +932,5 @@
 <!-- [2026-07-04-1] chore: weekend performance profiling @ 2026-07-04 09:11:00 -->
 
 <!-- [2026-07-04-2] fix: render bottleneck in PatientList @ 2026-07-04 10:22:00 -->
+
+<!-- [2026-07-04-3] refactor: virtualize long lists @ 2026-07-04 11:33:00 -->
