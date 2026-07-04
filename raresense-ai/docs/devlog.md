@@ -930,3 +930,5 @@
 <!-- [2026-07-03-4] style: bookmark icon animation @ 2026-07-03 12:44:00 -->
 
 <!-- [2026-07-04-1] chore: weekend performance profiling @ 2026-07-04 09:11:00 -->
+
+<!-- [2026-07-04-2] fix: render bottleneck in PatientList @ 2026-07-04 10:22:00 -->
