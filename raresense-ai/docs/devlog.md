@@ -940,3 +940,5 @@
 <!-- [2026-07-05-1] docs: add performance notes @ 2026-07-05 09:11:00 -->
 
 <!-- [2026-07-05-2] chore: update benchmarks @ 2026-07-05 10:22:00 -->
+
+<!-- [2026-07-05-3] fix: memo missing dependency @ 2026-07-05 11:33:00 -->
