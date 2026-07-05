@@ -936,3 +936,5 @@
 <!-- [2026-07-04-3] refactor: virtualize long lists @ 2026-07-04 11:33:00 -->
 
 <!-- [2026-07-04-4] style: list item height @ 2026-07-04 12:44:00 -->
+
+<!-- [2026-07-05-1] docs: add performance notes @ 2026-07-05 09:11:00 -->
