@@ -944,3 +944,5 @@
 <!-- [2026-07-05-3] fix: memo missing dependency @ 2026-07-05 11:33:00 -->
 
 <!-- [2026-07-05-4] style: loading state refinement @ 2026-07-05 12:44:00 -->
+
+<!-- [2026-07-06-1] feat: add AI diagnosis confidence chart @ 2026-07-06 09:11:00 -->
