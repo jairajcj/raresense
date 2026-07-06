@@ -3380,3 +3380,5 @@
 <!-- boost: perf: optimise database query @ 2026-07-06 15:45:00 -->
 
 <!-- boost: fix: correct off-by-one error @ 2026-07-06 16:52:00 -->
+
+<!-- boost: refactor: simplify conditional logic @ 2026-07-06 17:59:00 -->
