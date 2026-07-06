@@ -948,3 +948,5 @@
 <!-- [2026-07-06-1] feat: add AI diagnosis confidence chart @ 2026-07-06 09:11:00 -->
 
 <!-- [2026-07-06-2] fix: chart not updating on new data @ 2026-07-06 10:22:00 -->
+
+<!-- [2026-07-06-3] refactor: DiagnosisChart component @ 2026-07-06 11:33:00 -->
