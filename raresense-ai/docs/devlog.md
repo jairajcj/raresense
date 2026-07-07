@@ -958,3 +958,5 @@
 <!-- [2026-07-07-2] fix: analysis null on no data @ 2026-07-07 10:22:00 -->
 
 <!-- [2026-07-07-3] refactor: analysis service @ 2026-07-07 11:33:00 -->
+
+<!-- [2026-07-07-4] style: comparison table layout @ 2026-07-07 12:44:00 -->
