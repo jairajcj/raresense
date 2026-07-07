@@ -952,3 +952,5 @@
 <!-- [2026-07-06-3] refactor: DiagnosisChart component @ 2026-07-06 11:33:00 -->
 
 <!-- [2026-07-06-4] style: chart tooltip design @ 2026-07-06 12:44:00 -->
+
+<!-- [2026-07-07-1] feat: add comparative disease analysis @ 2026-07-07 09:11:00 -->
