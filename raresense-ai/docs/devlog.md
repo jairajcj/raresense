@@ -3398,3 +3398,5 @@
 <!-- boost: docs: update inline comments @ 2026-07-07 12:24:00 -->
 
 <!-- boost: chore: clean up unused imports @ 2026-07-07 13:31:00 -->
+
+<!-- boost: fix: handle edge case in parser @ 2026-07-07 14:38:00 -->
