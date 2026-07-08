@@ -964,3 +964,5 @@
 <!-- [2026-07-08-1] feat: real-time symptom matching @ 2026-07-08 09:11:00 -->
 
 <!-- [2026-07-08-2] fix: WebSocket reconnect logic @ 2026-07-08 10:22:00 -->
+
+<!-- [2026-07-08-3] refactor: socket event handlers @ 2026-07-08 11:33:00 -->
