@@ -960,3 +960,5 @@
 <!-- [2026-07-07-3] refactor: analysis service @ 2026-07-07 11:33:00 -->
 
 <!-- [2026-07-07-4] style: comparison table layout @ 2026-07-07 12:44:00 -->
+
+<!-- [2026-07-08-1] feat: real-time symptom matching @ 2026-07-08 09:11:00 -->
