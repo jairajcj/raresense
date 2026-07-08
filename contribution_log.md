@@ -293,3 +293,4 @@
 # 2026-07-07-1 - fix: edge case in form validation
 # 2026-07-07-2 - docs: add usage examples
 # 2026-07-08-0 - chore: remove debug statements
+# 2026-07-08-1 - fix: improve error messages
