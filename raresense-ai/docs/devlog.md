@@ -972,3 +972,5 @@
 <!-- [2026-07-09-1] feat: patient history timeline export @ 2026-07-09 09:11:00 -->
 
 <!-- [2026-07-09-2] fix: timeline PDF overflow @ 2026-07-09 10:22:00 -->
+
+<!-- [2026-07-09-3] refactor: timeline serializer @ 2026-07-09 11:33:00 -->
