@@ -974,3 +974,5 @@
 <!-- [2026-07-09-2] fix: timeline PDF overflow @ 2026-07-09 10:22:00 -->
 
 <!-- [2026-07-09-3] refactor: timeline serializer @ 2026-07-09 11:33:00 -->
+
+<!-- [2026-07-09-4] style: timeline print styles @ 2026-07-09 12:44:00 -->
