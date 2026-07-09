@@ -968,3 +968,5 @@
 <!-- [2026-07-08-3] refactor: socket event handlers @ 2026-07-08 11:33:00 -->
 
 <!-- [2026-07-08-4] style: live indicator badge @ 2026-07-08 12:44:00 -->
+
+<!-- [2026-07-09-1] feat: patient history timeline export @ 2026-07-09 09:11:00 -->
