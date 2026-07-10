@@ -978,3 +978,5 @@
 <!-- [2026-07-09-4] style: timeline print styles @ 2026-07-09 12:44:00 -->
 
 <!-- [2026-07-10-1] chore: mid-sprint review @ 2026-07-10 09:11:00 -->
+
+<!-- [2026-07-10-2] fix: minor regression in auth @ 2026-07-10 10:22:00 -->
