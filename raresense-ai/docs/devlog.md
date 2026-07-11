@@ -990,3 +990,5 @@
 <!-- [2026-07-11-2] fix: missing loading state in AI chat @ 2026-07-11 10:22:00 -->
 
 <!-- [2026-07-11-3] refactor: ChatMessage component @ 2026-07-11 11:33:00 -->
+
+<!-- [2026-07-11-4] style: typing indicator animation @ 2026-07-11 12:44:00 -->
