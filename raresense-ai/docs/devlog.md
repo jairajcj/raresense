@@ -988,3 +988,5 @@
 <!-- [2026-07-11-1] chore: weekend code improvements @ 2026-07-11 09:11:00 -->
 
 <!-- [2026-07-11-2] fix: missing loading state in AI chat @ 2026-07-11 10:22:00 -->
+
+<!-- [2026-07-11-3] refactor: ChatMessage component @ 2026-07-11 11:33:00 -->
