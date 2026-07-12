@@ -998,3 +998,5 @@
 <!-- [2026-07-12-2] fix: broken anchor links in docs @ 2026-07-12 10:22:00 -->
 
 <!-- [2026-07-12-3] refactor: docs sidebar nav @ 2026-07-12 11:33:00 -->
+
+<!-- [2026-07-12-4] style: docs code block theme @ 2026-07-12 12:44:00 -->
