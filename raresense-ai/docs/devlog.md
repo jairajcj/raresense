@@ -996,3 +996,5 @@
 <!-- [2026-07-12-1] docs: update technical documentation @ 2026-07-12 09:11:00 -->
 
 <!-- [2026-07-12-2] fix: broken anchor links in docs @ 2026-07-12 10:22:00 -->
+
+<!-- [2026-07-12-3] refactor: docs sidebar nav @ 2026-07-12 11:33:00 -->
