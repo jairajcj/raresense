@@ -1000,3 +1000,5 @@
 <!-- [2026-07-12-3] refactor: docs sidebar nav @ 2026-07-12 11:33:00 -->
 
 <!-- [2026-07-12-4] style: docs code block theme @ 2026-07-12 12:44:00 -->
+
+<!-- [2026-07-13-1] feat: add multi-language support scaffold @ 2026-07-13 09:11:00 -->
