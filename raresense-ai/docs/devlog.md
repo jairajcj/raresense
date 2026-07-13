@@ -1006,3 +1006,5 @@
 <!-- [2026-07-13-2] fix: i18n key missing fallback @ 2026-07-13 10:22:00 -->
 
 <!-- [2026-07-13-3] refactor: i18n provider setup @ 2026-07-13 11:33:00 -->
+
+<!-- [2026-07-13-4] style: RTL layout support @ 2026-07-13 12:44:00 -->
