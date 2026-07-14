@@ -1012,3 +1012,5 @@
 <!-- [2026-07-14-1] feat: add advanced patient filters @ 2026-07-14 09:11:00 -->
 
 <!-- [2026-07-14-2] fix: date range filter edge case @ 2026-07-14 10:22:00 -->
+
+<!-- [2026-07-14-3] refactor: FilterPanel component @ 2026-07-14 11:33:00 -->
