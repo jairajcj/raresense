@@ -1010,3 +1010,5 @@
 <!-- [2026-07-13-4] style: RTL layout support @ 2026-07-13 12:44:00 -->
 
 <!-- [2026-07-14-1] feat: add advanced patient filters @ 2026-07-14 09:11:00 -->
+
+<!-- [2026-07-14-2] fix: date range filter edge case @ 2026-07-14 10:22:00 -->
