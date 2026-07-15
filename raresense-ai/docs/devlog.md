@@ -1016,3 +1016,5 @@
 <!-- [2026-07-14-3] refactor: FilterPanel component @ 2026-07-14 11:33:00 -->
 
 <!-- [2026-07-14-4] style: filter drawer animation @ 2026-07-14 12:44:00 -->
+
+<!-- [2026-07-15-1] feat: add audit log for patient edits @ 2026-07-15 09:11:00 -->
