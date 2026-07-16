@@ -1030,3 +1030,5 @@
 <!-- [2026-07-16-2] fix: chart responsive breakpoints @ 2026-07-16 10:22:00 -->
 
 <!-- [2026-07-16-3] refactor: ChartGrid layout @ 2026-07-16 11:33:00 -->
+
+<!-- [2026-07-16-4] style: dashboard widget shadows @ 2026-07-16 12:44:00 -->
