@@ -1034,3 +1034,5 @@
 <!-- [2026-07-16-4] style: dashboard widget shadows @ 2026-07-16 12:44:00 -->
 
 <!-- [2026-07-17-1] chore: pre-release testing @ 2026-07-17 09:11:00 -->
+
+<!-- [2026-07-17-2] fix: regression tests all passing @ 2026-07-17 10:22:00 -->
