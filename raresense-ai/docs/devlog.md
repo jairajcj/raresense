@@ -1036,3 +1036,5 @@
 <!-- [2026-07-17-1] chore: pre-release testing @ 2026-07-17 09:11:00 -->
 
 <!-- [2026-07-17-2] fix: regression tests all passing @ 2026-07-17 10:22:00 -->
+
+<!-- [2026-07-17-3] docs: update release notes @ 2026-07-17 11:33:00 -->
