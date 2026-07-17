@@ -1038,3 +1038,5 @@
 <!-- [2026-07-17-2] fix: regression tests all passing @ 2026-07-17 10:22:00 -->
 
 <!-- [2026-07-17-3] docs: update release notes @ 2026-07-17 11:33:00 -->
+
+<!-- [2026-07-17-4] style: final UI polish pass @ 2026-07-17 12:44:00 -->
