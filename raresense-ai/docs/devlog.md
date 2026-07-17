@@ -1032,3 +1032,5 @@
 <!-- [2026-07-16-3] refactor: ChartGrid layout @ 2026-07-16 11:33:00 -->
 
 <!-- [2026-07-16-4] style: dashboard widget shadows @ 2026-07-16 12:44:00 -->
+
+<!-- [2026-07-17-1] chore: pre-release testing @ 2026-07-17 09:11:00 -->
