@@ -26,6 +26,17 @@ class LabResult(BaseModel):
     date: datetime
 
 
+class ReportItem(BaseModel):
+    """A medical report or attachment linked to a timeline event."""
+    report_id: Optional[str] = None
+    name: str = Field(..., description="Name of the report e.g. Complete Blood Count")
+    type: str = Field("lab", description="Type of report: lab, imaging, genetics, prescription, other")
+    file_name: Optional[str] = None
+    status: str = Field("normal", description="normal, abnormal, critical")
+    summary: Optional[str] = ""
+    uploaded_at: datetime = Field(default_factory=datetime.utcnow)
+
+
 class ClinicalNote(BaseModel):
     """A clinical note (discharge summary, progress note, etc.)."""
     note_id: Optional[str] = None
@@ -36,6 +47,7 @@ class ClinicalNote(BaseModel):
     date: datetime
     text: str = Field(..., description="Raw clinical note text")
     extracted_entities: List[ExtractedEntity] = []
+    reports: Optional[List[ReportItem]] = None
     created_at: datetime = Field(default_factory=datetime.utcnow)
 
 
@@ -46,6 +58,8 @@ class ClinicalNoteCreate(BaseModel):
     physician: str = ""
     date: datetime
     text: str
+    reports: Optional[List[ReportItem]] = None
+
 
 class ClinicalNoteUpdate(BaseModel):
     """Schema for updating an existing clinical note (timeline edit)."""
@@ -54,6 +68,7 @@ class ClinicalNoteUpdate(BaseModel):
     physician: Optional[str] = None
     date: Optional[datetime] = None
     text: Optional[str] = None
+    reports: Optional[List[ReportItem]] = None
 
 
 
@@ -96,6 +111,7 @@ class PatientCreate(BaseModel):
     allergies: List[str] = []
     status: str = "active"
     admission_date: Optional[datetime] = None
+    template: Optional[str] = None
 
 
 class PatientUpdate(BaseModel):
@@ -114,3 +130,13 @@ class PatientUpdate(BaseModel):
     status: Optional[str] = None
     admission_date: Optional[datetime] = None
     discharge_date: Optional[datetime] = None
+
+
+class ClinicianResultCreate(BaseModel):
+    """Schema for a clinician to post a result to a patient."""
+    result_type: str = Field("diagnosis", description="diagnosis, lab_report, treatment_plan, prescription, referral, follow_up")
+    title: str = Field(..., description="Title of the result, e.g. 'Blood Panel Results'")
+    summary: str = Field(..., description="Detailed result summary")
+    severity: str = Field("normal", description="normal, attention, critical")
+    physician: str = ""
+    attachments: Optional[List[str]] = []

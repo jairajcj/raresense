@@ -40,3 +40,21 @@ class Token(BaseModel):
     access_token: str
     token_type: str = "bearer"
     user: dict = {}
+
+
+class ClinicianLoginRequest(BaseModel):
+    """Schema for clinician institutional code login."""
+    email: str
+    institutional_code: str
+    full_name: str = ""
+
+
+class OTPRequest(BaseModel):
+    """Schema for requesting an OTP code via email."""
+    email: str
+
+
+class OTPVerifyRequest(BaseModel):
+    """Schema for verifying an OTP code."""
+    email: str
+    otp_code: str

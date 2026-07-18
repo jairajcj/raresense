@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { api } from '../utils/api'
-import { Search, Dna, ChevronLeft, ChevronRight } from 'lucide-react'
+import { Search, Dna, ChevronLeft, ChevronRight, TrendingUp, Activity } from 'lucide-react'
 
 export default function Diseases() {
   const [diseases, setDiseases] = useState([])
@@ -90,10 +90,10 @@ export default function Diseases() {
             <p style={{ fontSize: '0.8rem', color: 'var(--text-tertiary)', marginBottom: '0.75rem', lineHeight: 1.5, display: '-webkit-box', WebkitLineClamp: 2, WebkitBoxOrient: 'vertical', overflow: 'hidden' }}>
               {d.description}
             </p>
-            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem', fontSize: '0.7rem', color: 'var(--text-muted)' }}>
-              <span>🧬 {d.symptoms?.length || 0} symptoms</span>
-              <span>📊 {d.prevalence}</span>
-              <span>🧪 {d.inheritance}</span>
+            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.85rem', fontSize: '0.74rem', color: 'var(--text-muted)' }}>
+              <span style={{ display: 'flex', alignItems: 'center', gap: '0.25rem' }}><Dna size={11} /> {d.symptoms?.length || 0} symptoms</span>
+              <span style={{ display: 'flex', alignItems: 'center', gap: '0.25rem' }}><TrendingUp size={11} /> {d.prevalence}</span>
+              <span style={{ display: 'flex', alignItems: 'center', gap: '0.25rem' }}><Activity size={11} /> {d.inheritance}</span>
             </div>
           </div>
         ))}

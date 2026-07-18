@@ -7,15 +7,21 @@ Generates and inserts realistic clinical data:
 - Test clinician users
 """
 import sys
+import os
 import random
+import certifi
 from datetime import datetime, timedelta
 from pymongo import MongoClient
 from passlib.context import CryptContext
+from dotenv import load_dotenv
+
+# Load .env from backend root
+load_dotenv(os.path.join(os.path.dirname(__file__), '..', '..', '.env'))
 
 pwd_context = CryptContext(schemes=["bcrypt"], deprecated="auto")
 
-MONGO_URI = "mongodb://localhost:27017"
-DATABASE_NAME = "raresense"
+MONGO_URI = os.getenv("MONGO_URI", "mongodb+srv://user:pass@cluster.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_NAME = os.getenv("DATABASE_NAME", "raresense")
 
 # ─────────────────────────── RARE DISEASES DATABASE ───────────────────────────
 DISEASES = [
@@ -774,8 +780,22 @@ def generate_lupus_case_study():
 
 def seed_database():
     """Main seeding function."""
-    client = MongoClient(MONGO_URI)
+    client = MongoClient(
+        MONGO_URI,
+        tlsCAFile=certifi.where(),
+        serverSelectionTimeoutMS=15000,
+        connectTimeoutMS=15000,
+    )
     db = client[DATABASE_NAME]
+    
+    # Verify Atlas connection
+    try:
+        client.admin.command('ping')
+        print(f"✅ Connected to MongoDB Atlas: {DATABASE_NAME}")
+    except Exception as e:
+        print(f"❌ Failed to connect to MongoDB Atlas: {e}")
+        print("   Check your MONGO_URI in the .env file")
+        sys.exit(1)
     
     print("🗑️  Clearing existing data...")
     db.patients.drop()
@@ -983,6 +1003,7 @@ def seed_database():
     print("=" * 60)
     
     client.close()
+    print("\n  🔌 MongoDB Atlas connection closed")
 
 
 if __name__ == "__main__":

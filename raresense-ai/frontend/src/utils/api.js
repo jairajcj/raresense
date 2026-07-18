@@ -29,6 +29,10 @@ export const api = {
   login: (data) => request('/auth/login', { method: 'POST', body: JSON.stringify(data) }),
   register: (data) => request('/auth/register', { method: 'POST', body: JSON.stringify(data) }),
   me: () => request('/auth/me'),
+  googleLogin: (data) => request('/auth/google-login', { method: 'POST', body: JSON.stringify(data) }),
+  clinicianLogin: (data) => request('/auth/clinician-login', { method: 'POST', body: JSON.stringify(data) }),
+  sendOTP: (data) => request('/auth/send-otp', { method: 'POST', body: JSON.stringify(data) }),
+  verifyOTP: (data) => request('/auth/verify-otp', { method: 'POST', body: JSON.stringify(data) }),
 
   // Patients
   getPatients: (params = '') => request(`/patients${params}`),
@@ -52,6 +56,9 @@ export const api = {
   },
   updateClinicalNote: (id, data) => request(`/patients/notes/${id}`, { method: 'PUT', body: JSON.stringify(data) }),
   deleteClinicalNote: (id) => request(`/patients/notes/${id}`, { method: 'DELETE' }),
+  getMyResults: () => request('/patients/me/results'),
+  postPatientResult: (patientId, data) => request(`/patients/${patientId}/results`, { method: 'POST', body: JSON.stringify(data) }),
+  getPatientResults: (patientId) => request(`/patients/${patientId}/results`),
 
   // Clinical Notes
   getPatientNotes: (id) => request(`/patients/${id}/notes`),
@@ -86,4 +93,5 @@ export const api = {
 
   // Health
   health: () => request('/health'),
+  getGoogleConfig: () => request('/auth/google-config'),
 };

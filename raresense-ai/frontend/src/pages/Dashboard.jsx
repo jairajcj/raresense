@@ -1,9 +1,26 @@
 import { useState, useEffect } from 'react'
 import { api } from '../utils/api'
 import { Users, FileText, Dna, Activity, TrendingUp, Zap, Clock, BarChart3 } from 'lucide-react'
-import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, PieChart, Pie, Cell, LineChart, Line, AreaChart, Area } from 'recharts'
+import { BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, ResponsiveContainer, PieChart, Pie, Cell, AreaChart, Area } from 'recharts'
 
-const CHART_COLORS = ['#6366f1', '#a855f7', '#ec4899', '#f43f5e', '#f97316', '#eab308', '#22c55e', '#06b6d4', '#3b82f6', '#8b5cf6']
+// Human-curated Slate & Copper dashboard palette
+const CHART_COLORS = ['#0f766e', '#ca8a04', '#10b981', '#0369a1', '#be185d', '#64748b', '#94a3b8']
+
+// Clean, Apple-style frosted light tooltip configuration
+const tooltipStyle = {
+  contentStyle: {
+    background: 'rgba(255, 255, 255, 0.95)',
+    border: '1px solid rgba(15, 23, 42, 0.08)',
+    borderRadius: '8px',
+    boxShadow: '0 6px 20px rgba(15, 23, 42, 0.05)',
+    fontSize: '11px',
+    color: '#0f172a',
+    backdropFilter: 'blur(8px)',
+    padding: '8px 12px'
+  },
+  itemStyle: { color: '#0f172a', padding: '2px 0' },
+  labelStyle: { color: '#64748b', fontWeight: 'bold', marginBottom: '4px' }
+}
 
 export default function Dashboard() {
   const [stats, setStats] = useState(null)
@@ -49,109 +66,106 @@ export default function Dashboard() {
   const entityData = entities.map((e, i) => ({
     name: e.entity_type === 'lab_value' ? 'Lab Values' : e.entity_type.charAt(0).toUpperCase() + e.entity_type.slice(1) + 's',
     value: e.count,
-    color: ['#f472b6', '#34d399', '#fbbf24', '#60a5fa'][i] || '#6366f1'
+    color: ['#be185d', '#047857', '#b45309', '#0369a1'][i] || '#0f766e'
   }))
 
   return (
-    <div className="fade-in">
+    <div className="fade-in workspace-glow-bg">
       <div className="page-header">
         <div>
-          <h1>Dashboard</h1>
-          <p>RareSense.AI system overview and analytics</p>
+          <h1 style={{ fontSize: '1.75rem', fontWeight: 800, color: 'var(--text-primary)' }}>Dashboard</h1>
+          <p style={{ fontSize: '0.85rem', color: 'var(--text-tertiary)' }}>System Overview & Patient Analytics</p>
         </div>
       </div>
 
-      {/* Stat Cards */}
-      <div className="stat-grid">
-        <div className="stat-card" style={{ '--stat-color': '#6366f1' }}>
-          <div className="stat-icon" style={{ background: 'rgba(99,102,241,0.15)', color: '#818cf8' }}>
-            <Users />
+      {/* Bento Stat Cards */}
+      <div className="bento-stat-grid">
+        {/* Card 1: Active Caseload */}
+        <div className="bento-stat-card" style={{ borderLeftColor: 'var(--accent)' }}>
+          <div className="bento-stat-header">
+            <span className="bento-stat-title">Patient Caseload</span>
+            <Users size={14} style={{ color: 'var(--accent)' }} />
           </div>
-          <div className="stat-info">
-            <h3>{stats?.total_patients || 0}</h3>
-            <p>Total Patients</p>
+          <div className="bento-stat-value-group">
+            <span className="bento-stat-value">{stats?.total_patients || 0}</span>
+            <span className="bento-stat-unit">cases</span>
           </div>
-        </div>
-
-        <div className="stat-card" style={{ '--stat-color': '#a855f7' }}>
-          <div className="stat-icon" style={{ background: 'rgba(168,85,247,0.15)', color: '#c084fc' }}>
-            <FileText />
-          </div>
-          <div className="stat-info">
-            <h3>{stats?.total_notes || 0}</h3>
-            <p>Clinical Notes</p>
+          <div className="bento-stat-details">
+            <span>Active Clinical Cases • {stats?.total_matches || 0} verified pathologies</span>
           </div>
         </div>
 
-        <div className="stat-card" style={{ '--stat-color': '#ec4899' }}>
-          <div className="stat-icon" style={{ background: 'rgba(236,72,153,0.15)', color: '#f472b6' }}>
-            <Dna />
+        {/* Card 2: Processed Case Narratives */}
+        <div className="bento-stat-card" style={{ borderLeftColor: '#0369a1' }}>
+          <div className="bento-stat-header">
+            <span className="bento-stat-title">Clinical NLP Extraction</span>
+            <FileText size={14} style={{ color: '#0369a1' }} />
           </div>
-          <div className="stat-info">
-            <h3>{stats?.total_diseases || 0}</h3>
-            <p>Rare Diseases</p>
+          <div className="bento-stat-value-group">
+            <span className="bento-stat-value">{stats?.total_notes || 0}</span>
+            <span className="bento-stat-unit">narratives</span>
           </div>
-        </div>
-
-        <div className="stat-card" style={{ '--stat-color': '#10b981' }}>
-          <div className="stat-icon" style={{ background: 'rgba(16,185,129,0.15)', color: '#34d399' }}>
-            <TrendingUp />
-          </div>
-          <div className="stat-info">
-            <h3>{stats?.total_matches || 0}</h3>
-            <p>Disease Matches</p>
+          <div className="bento-stat-details">
+            <span>BioBERT Case Notes • {stats?.recent_activity_24h || 0} events (24h)</span>
           </div>
         </div>
 
-        <div className="stat-card" style={{ '--stat-color': '#f59e0b' }}>
-          <div className="stat-icon" style={{ background: 'rgba(245,158,11,0.15)', color: '#fbbf24' }}>
-            <Zap />
+        {/* Card 3: Cataloged Syndromes */}
+        <div className="bento-stat-card" style={{ borderLeftColor: '#be185d' }}>
+          <div className="bento-stat-header">
+            <span className="bento-stat-title">Orphanet Registry</span>
+            <Dna size={14} style={{ color: '#be185d' }} />
           </div>
-          <div className="stat-info">
-            <h3>{stats?.avg_confidence || 0}%</h3>
-            <p>Avg Match Confidence</p>
+          <div className="bento-stat-value-group">
+            <span className="bento-stat-value">{stats?.total_diseases || 0}</span>
+            <span className="bento-stat-unit">syndromes</span>
+          </div>
+          <div className="bento-stat-details">
+            <span>Orphanet DB Integration</span>
           </div>
         </div>
 
-        <div className="stat-card" style={{ '--stat-color': '#06b6d4' }}>
-          <div className="stat-icon" style={{ background: 'rgba(6,182,212,0.15)', color: '#22d3ee' }}>
-            <Activity />
+        {/* Card 4: Mean Reasoning Confidence */}
+        <div className="bento-stat-card" style={{ borderLeftColor: 'var(--warning)' }}>
+          <div className="bento-stat-header">
+            <span className="bento-stat-title">Reasoning Confidence</span>
+            <Zap size={14} style={{ color: 'var(--warning)' }} />
           </div>
-          <div className="stat-info">
-            <h3>{stats?.recent_activity_24h || 0}</h3>
-            <p>Activity (24h)</p>
+          <div className="bento-stat-value-group">
+            <span className="bento-stat-value">{stats?.avg_confidence || 0}%</span>
+            <span className="bento-stat-unit">mean</span>
+          </div>
+          <div className="bento-stat-details">
+            <span>Phenotype Matching</span>
           </div>
         </div>
       </div>
 
       {/* Charts Row */}
-      <div className="grid-2" style={{ marginBottom: '1.5rem' }}>
+      <div className="grid-2" style={{ marginBottom: '1.75rem' }}>
         {/* Symptom Frequency */}
-        <div className="chart-container">
-          <h3><BarChart3 size={16} style={{ display: 'inline', marginRight: '0.5rem', verticalAlign: 'text-bottom' }} />Top Extracted Symptoms</h3>
+        <div className="chart-container glassmorphic-panel">
+          <h3 className="chart-title"><BarChart3 size={15} style={{ display: 'inline', marginRight: '0.4rem', verticalAlign: 'text-bottom' }} />Prevalent Patient Phenotypes</h3>
           {symptoms.length > 0 ? (
             <ResponsiveContainer width="100%" height={300}>
-              <BarChart data={symptoms} layout="vertical" margin={{ left: 20 }}>
-                <CartesianGrid strokeDasharray="3 3" stroke="rgba(148,163,184,0.1)" />
-                <XAxis type="number" tick={{ fill: '#94a3b8', fontSize: 11 }} />
-                <YAxis type="category" dataKey="symptom" tick={{ fill: '#94a3b8', fontSize: 11 }} width={120} />
-                <Tooltip
-                  contentStyle={{ background: '#1a1f35', border: '1px solid rgba(148,163,184,0.2)', borderRadius: 8, fontSize: 12 }}
-                  itemStyle={{ color: '#f1f5f9' }}
-                />
-                <Bar dataKey="count" fill="#6366f1" radius={[0, 4, 4, 0]} />
+              <BarChart data={symptoms} layout="vertical" margin={{ left: 10, right: 10, top: 10 }}>
+                <CartesianGrid strokeDasharray="3 3" stroke="rgba(15,23,42,0.03)" />
+                <XAxis type="number" tick={{ fill: 'var(--text-tertiary)', fontSize: 11 }} />
+                <YAxis type="category" dataKey="symptom" tick={{ fill: 'var(--text-secondary)', fontSize: 11 }} width={110} />
+                <Tooltip {...tooltipStyle} />
+                <Bar dataKey="count" fill="var(--accent)" radius={[0, 4, 4, 0]} barSize={12} />
               </BarChart>
             </ResponsiveContainer>
           ) : (
-            <div className="empty-state" style={{ padding: '2rem' }}>
+            <div className="empty-state">
               <p>No symptom data available yet</p>
             </div>
           )}
         </div>
 
         {/* Disease Categories */}
-        <div className="chart-container">
-          <h3><Dna size={16} style={{ display: 'inline', marginRight: '0.5rem', verticalAlign: 'text-bottom' }} />Disease Categories</h3>
+        <div className="chart-container glassmorphic-panel">
+          <h3 className="chart-title"><Dna size={15} style={{ display: 'inline', marginRight: '0.4rem', verticalAlign: 'text-bottom' }} />Disease Category Distribution</h3>
           {categoryData.length > 0 ? (
             <ResponsiveContainer width="100%" height={300}>
               <PieChart>
@@ -161,23 +175,20 @@ export default function Dashboard() {
                   nameKey="category"
                   cx="50%"
                   cy="50%"
-                  outerRadius={100}
-                  innerRadius={55}
-                  paddingAngle={3}
+                  outerRadius={95}
+                  innerRadius={65}
+                  paddingAngle={4}
                   label={({ category, count }) => `${category} (${count})`}
                 >
                   {categoryData.map((entry, i) => (
                     <Cell key={i} fill={CHART_COLORS[i % CHART_COLORS.length]} />
                   ))}
                 </Pie>
-                <Tooltip
-                  contentStyle={{ background: '#1a1f35', border: '1px solid rgba(148,163,184,0.2)', borderRadius: 8, fontSize: 12 }}
-                  itemStyle={{ color: '#f1f5f9' }}
-                />
+                <Tooltip {...tooltipStyle} />
               </PieChart>
             </ResponsiveContainer>
           ) : (
-            <div className="empty-state" style={{ padding: '2rem' }}>
+            <div className="empty-state">
               <p>No disease data available yet</p>
             </div>
           )}
@@ -185,50 +196,44 @@ export default function Dashboard() {
       </div>
 
       {/* Second Row */}
-      <div className="grid-2" style={{ marginBottom: '1.5rem' }}>
+      <div className="grid-2" style={{ marginBottom: '1.75rem' }}>
         {/* Timeline Density */}
-        <div className="chart-container">
-          <h3><Clock size={16} style={{ display: 'inline', marginRight: '0.5rem', verticalAlign: 'text-bottom' }} />Clinical Visits Over Time</h3>
+        <div className="chart-container glassmorphic-panel">
+          <h3 className="chart-title"><Clock size={15} style={{ display: 'inline', marginRight: '0.4rem', verticalAlign: 'text-bottom' }} />Admissions & Consultation Trends</h3>
           {timeline.length > 0 ? (
             <ResponsiveContainer width="100%" height={250}>
-              <AreaChart data={timeline}>
-                <CartesianGrid strokeDasharray="3 3" stroke="rgba(148,163,184,0.1)" />
-                <XAxis dataKey="month" tick={{ fill: '#94a3b8', fontSize: 11 }} />
-                <YAxis tick={{ fill: '#94a3b8', fontSize: 11 }} />
-                <Tooltip
-                  contentStyle={{ background: '#1a1f35', border: '1px solid rgba(148,163,184,0.2)', borderRadius: 8, fontSize: 12 }}
-                  itemStyle={{ color: '#f1f5f9' }}
-                />
+              <AreaChart data={timeline} margin={{ top: 10, right: 10 }}>
+                <CartesianGrid strokeDasharray="3 3" stroke="rgba(15,23,42,0.03)" />
+                <XAxis dataKey="month" tick={{ fill: 'var(--text-tertiary)', fontSize: 11 }} />
+                <YAxis tick={{ fill: 'var(--text-tertiary)', fontSize: 11 }} />
+                <Tooltip {...tooltipStyle} />
                 <defs>
                   <linearGradient id="colorVisits" x1="0" y1="0" x2="0" y2="1">
-                    <stop offset="0%" stopColor="#6366f1" stopOpacity={0.3} />
-                    <stop offset="100%" stopColor="#6366f1" stopOpacity={0.05} />
+                    <stop offset="0%" stopColor="var(--accent)" stopOpacity={0.25} />
+                    <stop offset="100%" stopColor="var(--accent)" stopOpacity={0.02} />
                   </linearGradient>
                 </defs>
-                <Area type="monotone" dataKey="visit_count" stroke="#6366f1" fill="url(#colorVisits)" strokeWidth={2} name="Visits" />
+                <Area type="monotone" dataKey="visit_count" stroke="var(--accent)" fill="url(#colorVisits)" strokeWidth={1.5} name="Visits" />
               </AreaChart>
             </ResponsiveContainer>
           ) : (
-            <div className="empty-state" style={{ padding: '2rem' }}>
+            <div className="empty-state">
               <p>No timeline data available yet</p>
             </div>
           )}
         </div>
 
         {/* Entity Breakdown */}
-        <div className="chart-container">
-          <h3><Zap size={16} style={{ display: 'inline', marginRight: '0.5rem', verticalAlign: 'text-bottom' }} />NLP Entity Breakdown</h3>
+        <div className="chart-container glassmorphic-panel">
+          <h3 className="chart-title"><Zap size={15} style={{ display: 'inline', marginRight: '0.4rem', verticalAlign: 'text-bottom' }} />Extracted Clinical Entities (Phenopackets)</h3>
           {entityData.length > 0 ? (
             <ResponsiveContainer width="100%" height={250}>
-              <BarChart data={entityData}>
-                <CartesianGrid strokeDasharray="3 3" stroke="rgba(148,163,184,0.1)" />
-                <XAxis dataKey="name" tick={{ fill: '#94a3b8', fontSize: 11 }} />
-                <YAxis tick={{ fill: '#94a3b8', fontSize: 11 }} />
-                <Tooltip
-                  contentStyle={{ background: '#1a1f35', border: '1px solid rgba(148,163,184,0.2)', borderRadius: 8, fontSize: 12 }}
-                  itemStyle={{ color: '#f1f5f9' }}
-                />
-                <Bar dataKey="value" radius={[4, 4, 0, 0]}>
+              <BarChart data={entityData} margin={{ top: 10 }}>
+                <CartesianGrid strokeDasharray="3 3" stroke="rgba(15,23,42,0.03)" />
+                <XAxis dataKey="name" tick={{ fill: 'var(--text-tertiary)', fontSize: 11 }} />
+                <YAxis tick={{ fill: 'var(--text-tertiary)', fontSize: 11 }} />
+                <Tooltip {...tooltipStyle} />
+                <Bar dataKey="value" radius={[4, 4, 0, 0]} barSize={24}>
                   {entityData.map((entry, i) => (
                     <Cell key={i} fill={entry.color} />
                   ))}
@@ -236,7 +241,7 @@ export default function Dashboard() {
               </BarChart>
             </ResponsiveContainer>
           ) : (
-            <div className="empty-state" style={{ padding: '2rem' }}>
+            <div className="empty-state">
               <p>No entity data available yet</p>
             </div>
           )}
@@ -244,19 +249,20 @@ export default function Dashboard() {
       </div>
 
       {/* Recent Activity */}
-      <div className="chart-container">
-        <h3><Activity size={16} style={{ display: 'inline', marginRight: '0.5rem', verticalAlign: 'text-bottom' }} />Recent Activity</h3>
+      <div className="chart-container glassmorphic-panel">
+        <h3 className="chart-title"><Activity size={15} style={{ display: 'inline', marginRight: '0.4rem', verticalAlign: 'text-bottom' }} />Workstation Audit Logs</h3>
         {activity.length > 0 ? (
           <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
             {activity.map((a, i) => (
-              <div key={i} style={{
+              <div key={i} className="recent-activity-row" style={{
                 display: 'flex',
                 alignItems: 'center',
                 gap: '0.75rem',
-                padding: '0.6rem 0.85rem',
-                background: 'var(--bg-elevated)',
+                padding: '0.65rem 0.85rem',
+                background: 'rgba(15, 23, 42, 0.015)',
+                border: '1px solid rgba(15, 23, 42, 0.03)',
                 borderRadius: 'var(--radius-sm)',
-                fontSize: '0.8rem'
+                fontSize: '0.82rem'
               }}>
                 <span className={`badge badge-${
                   a.action.includes('match') ? 'accent' : 
@@ -267,7 +273,7 @@ export default function Dashboard() {
                   {a.action.replace(/_/g, ' ')}
                 </span>
                 <span style={{ color: 'var(--text-secondary)', flex: 1 }}>{a.details}</span>
-                <span style={{ color: 'var(--text-muted)', fontSize: '0.7rem', whiteSpace: 'nowrap' }}>
+                <span style={{ color: 'var(--text-muted)', fontSize: '0.72rem', whiteSpace: 'nowrap', fontFamily: 'monospace' }}>
                   {a.timestamp ? new Date(a.timestamp).toLocaleString() : ''}
                 </span>
               </div>

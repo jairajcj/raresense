@@ -26,7 +26,15 @@ export default function Layout({ children, user, onLogout }) {
       {/* Sidebar */}
       <aside className="sidebar">
         <div className="sidebar-logo">
-          <div className="logo-icon">RS</div>
+          <div className="logo-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" style={{ width: '22px', height: '22px', color: 'var(--accent)' }}>
+              <path d="M4.5 16.5c3-4.5 3-4.5 6-9s3-4.5 6-9" />
+              <path d="M4.5 7.5c3 4.5 3 4.5 6 9s3 4.5 6 9" opacity="0.3" />
+              <circle cx="12" cy="12" r="9" strokeWidth="1.5" strokeDasharray="3 2" />
+              <circle cx="10.5" cy="7.5" r="1.5" fill="var(--accent)" stroke="none" />
+              <circle cx="13.5" cy="16.5" r="1.5" fill="var(--accent)" stroke="none" />
+            </svg>
+          </div>
           <div className="logo-text">
             <h1>RareSense.AI</h1>
             <span>Rare Disease Detection</span>

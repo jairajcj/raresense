@@ -71,7 +71,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Dashboard />} />
           <Route path="/patients" element={<Patients />} />
-          <Route path="/patients/:id" element={<PatientDetail />} />
+          <Route path="/patients/:id" element={<PatientDetail user={user} />} />
           <Route path="/diseases" element={<Diseases />} />
           <Route path="/search" element={<Search />} />
           <Route path="/ai-assistant" element={<AIAssistant />} />
