@@ -1042,3 +1042,5 @@
 <!-- [2026-07-17-4] style: final UI polish pass @ 2026-07-17 12:44:00 -->
 
 <!-- [2026-07-18-1] fix: hotfix patient search crash @ 2026-07-18 09:11:00 -->
+
+<!-- [2026-07-18-2] refactor: error boundary wrapper @ 2026-07-18 10:22:00 -->
