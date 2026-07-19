@@ -1056,3 +1056,5 @@
 <!-- [2026-07-19-3] docs: update README with latest features @ 2026-07-19 11:33:00 -->
 
 <!-- [2026-07-19-4] chore: prepare submission build @ 2026-07-19 12:44:00 -->
+
+<!-- [2026-07-19-5] style: final responsive tweaks @ 2026-07-19 13:55:00 -->
