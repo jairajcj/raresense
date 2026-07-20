@@ -336,3 +336,4 @@
 # 2026-07-21-1 - perf: optimise render loop
 # 2026-07-21-2 - test: add missing test coverage
 # 2026-07-21-3 - feat: minor UI enhancement
+# boost 2026-07-20-boost0 - chore: update dependencies
