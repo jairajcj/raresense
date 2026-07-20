@@ -347,3 +347,4 @@
 # boost 2026-07-21-boost2 - chore: clean up unused imports
 # boost 2026-07-21-boost3 - fix: null pointer guard
 # boost 2026-07-21-boost4 - refactor: extract helper function
+# boost 2026-07-21-boost5 - docs: clarify function purpose
