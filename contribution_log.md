@@ -334,3 +334,4 @@
 # 2026-07-20-3 - docs: update inline comments
 # 2026-07-21-0 - style: fix formatting inconsistencies
 # 2026-07-21-1 - perf: optimise render loop
+# 2026-07-21-2 - test: add missing test coverage
