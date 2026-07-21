@@ -342,3 +342,4 @@
 # boost 2026-07-20-boost3 - docs: update inline comments
 # boost 2026-07-20-boost4 - style: fix formatting inconsistencies
 # boost 2026-07-20-boost5 - perf: optimise render loop
+# boost 2026-07-21-boost0 - test: add missing test coverage
