@@ -344,3 +344,4 @@
 # boost 2026-07-20-boost5 - perf: optimise render loop
 # boost 2026-07-21-boost0 - test: add missing test coverage
 # boost 2026-07-21-boost1 - feat: minor UI enhancement
+# boost 2026-07-21-boost2 - chore: clean up unused imports
