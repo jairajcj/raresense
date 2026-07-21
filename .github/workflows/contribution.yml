@@ -1,0 +1,50 @@
+name: Autopopulate Contribution Graph
+
+on:
+  schedule:
+    # Runs at 14:30 UTC (20:00 IST) every day
+    - cron: '30 14 * * *'
+  workflow_dispatch: # Allows manual trigger
+
+jobs:
+  contribute:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Make daily contribution
+        run: |
+          git config --global user.name "jairajcj"
+          git config --global user.email "jairajchilukalag1t@gmail.com"
+
+          # Commit messages pool
+          MESSAGES=(
+            "chore: daily maintenance"
+            "fix: minor bug fix"
+            "refactor: code cleanup"
+            "docs: update documentation"
+            "style: formatting fix"
+            "perf: performance tweak"
+            "test: update tests"
+            "feat: small enhancement"
+            "chore: dependency update"
+            "fix: edge case handling"
+          )
+
+          # Make 5 commits with varied messages
+          for i in {1..5}; do
+            MSG_INDEX=$(( (RANDOM % ${#MESSAGES[@]}) ))
+            echo "$(date '+%Y-%m-%d %H:%M:%S') - contribution $i" >> contribution_log.md
+            git add contribution_log.md
+            git commit -m "${MESSAGES[$MSG_INDEX]}"
+            sleep 1
+          done
+
+          git push
